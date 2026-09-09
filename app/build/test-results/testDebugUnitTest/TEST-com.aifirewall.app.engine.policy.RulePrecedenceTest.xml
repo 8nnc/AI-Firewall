@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aifirewall.app.engine.policy.RulePrecedenceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="٢٠٢٦-٠٩-٠٩T٢٠:٢٦:٥٧" hostname="AMRO" time="0.016">
+  <properties/>
+  <testcase name="testGroupRuleAppliesWhenAppRuleUnset" classname="com.aifirewall.app.engine.policy.RulePrecedenceTest" time="0.007"/>
+  <testcase name="testConflictingGroupRulesBlockTakesPrecedence" classname="com.aifirewall.app.engine.policy.RulePrecedenceTest" time="0.005"/>
+  <testcase name="testDefaultPolicyWhenNoAppRuleAndNoGroup" classname="com.aifirewall.app.engine.policy.RulePrecedenceTest" time="0.002"/>
+  <testcase name="testAppRuleOverridesGroupRule" classname="com.aifirewall.app.engine.policy.RulePrecedenceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

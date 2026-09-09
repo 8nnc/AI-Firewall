@@ -1,0 +1,219 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aifirewall.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions required for future VPN/Firewall functionality -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+13-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:7:5-77
+13-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:8:22-76
+15
+16    <!-- Permissions for querying historical network data usage -->
+17    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+17-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:11:5-114
+17-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:11:22-75
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:12:5-75
+18-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:12:22-72
+19
+20    <!-- Permissions for Foreground VPN Service -->
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:15:5-77
+21-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:15:22-74
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+22-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:16:5-89
+22-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:16:22-86
+23    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+23-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:17:5-77
+23-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:17:22-74
+24
+25    <!-- Security and Biometrics -->
+26    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+26-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:20:5-72
+26-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:20:22-69
+27
+28    <!-- suppress DeprecatedClassUsageInspection -->
+29    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+29-->[androidx.biometric:biometric:1.2.0-alpha05] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\868a0fd52a129a810f1e00ffce1f8dcc\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:25:5-74
+29-->[androidx.biometric:biometric:1.2.0-alpha05] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\868a0fd52a129a810f1e00ffce1f8dcc\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:25:22-71
+30
+31    <permission
+31-->[androidx.core:core:1.13.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\2df1cc7cf9c008d153d4ae8e8efddeb8\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+32        android:name="com.aifirewall.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.13.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\2df1cc7cf9c008d153d4ae8e8efddeb8\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.13.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\2df1cc7cf9c008d153d4ae8e8efddeb8\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.aifirewall.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.13.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\2df1cc7cf9c008d153d4ae8e8efddeb8\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.13.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\2df1cc7cf9c008d153d4ae8e8efddeb8\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+36
+37    <application
+37-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:22:5-54:19
+38        android:name="com.aifirewall.app.AIFirewallApp"
+38-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:23:9-38
+39        android:allowBackup="true"
+39-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:24:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.13.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\2df1cc7cf9c008d153d4ae8e8efddeb8\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+41        android:dataExtractionRules="@xml/data_extraction_rules"
+41-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:25:9-65
+42        android:debuggable="true"
+43        android:extractNativeLibs="false"
+44        android:fullBackupContent="@xml/backup_rules"
+44-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:26:9-54
+45        android:icon="@drawable/ic_launcher"
+45-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:27:9-45
+46        android:label="@string/app_name"
+46-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:28:9-41
+47        android:roundIcon="@drawable/ic_launcher"
+47-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:29:9-50
+48        android:supportsRtl="true"
+48-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:30:9-35
+49        android:theme="@style/Theme.AIFirewall" >
+49-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:31:9-48
+50        <service
+50-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:34:9-43:19
+51            android:name="com.aifirewall.app.engine.service.FirewallVpnService"
+51-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:35:13-62
+52            android:exported="false"
+52-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:36:13-37
+53            android:foregroundServiceType="specialUse"
+53-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:37:13-55
+54            android:permission="android.permission.BIND_VPN_SERVICE" >
+54-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:38:13-69
+55            <intent-filter>
+55-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:39:13-41:29
+56                <action android:name="android.net.VpnService" />
+56-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:40:17-65
+56-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:40:25-62
+57            </intent-filter>
+58
+59            <property
+59-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:42:13-105
+60                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+60-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:42:23-82
+61                android:value="vpn" />
+61-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:42:83-102
+62        </service>
+63
+64        <activity
+64-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:45:9-53:20
+65            android:name="com.aifirewall.app.MainActivity"
+65-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:46:13-41
+66            android:exported="true"
+66-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:47:13-36
+67            android:theme="@style/Theme.App.Starting" >
+67-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:48:13-54
+68            <intent-filter>
+68-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:49:13-52:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:50:17-69
+69-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:50:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:51:17-77
+71-->C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:51:27-74
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\1338bf9d1eabc8404b800242a9bc7ea1\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+75            android:name="androidx.compose.ui.tooling.PreviewActivity"
+75-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\1338bf9d1eabc8404b800242a9bc7ea1\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+76            android:exported="true" />
+76-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\1338bf9d1eabc8404b800242a9bc7ea1\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+77        <activity
+77-->[androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\3bb3e86a1fd6cfe12b8ae2030b4fd36f\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:23:9-25:39
+78            android:name="androidx.activity.ComponentActivity"
+78-->[androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\3bb3e86a1fd6cfe12b8ae2030b4fd36f\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:24:13-63
+79            android:exported="true" />
+79-->[androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\3bb3e86a1fd6cfe12b8ae2030b4fd36f\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:25:13-36
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\c82e5a6b576772e653794048e0840be1\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\c82e5a6b576772e653794048e0840be1\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+83            android:authorities="com.aifirewall.app.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\c82e5a6b576772e653794048e0840be1\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\c82e5a6b576772e653794048e0840be1\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\c82e5a6b576772e653794048e0840be1\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\c82e5a6b576772e653794048e0840be1\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\c82e5a6b576772e653794048e0840be1\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\a32c9907d4fc25c5f7dd0f4e5b048bb1\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\a32c9907d4fc25c5f7dd0f4e5b048bb1\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:30:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\a32c9907d4fc25c5f7dd0f4e5b048bb1\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+93                android:value="androidx.startup" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+94        </provider>
+95
+96        <service
+96-->[androidx.room:room-runtime:2.6.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\2e5000d61fa6b6e0acb8a2e3c70dfd11\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+97            android:name="androidx.room.MultiInstanceInvalidationService"
+97-->[androidx.room:room-runtime:2.6.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\2e5000d61fa6b6e0acb8a2e3c70dfd11\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+98            android:directBootAware="true"
+98-->[androidx.room:room-runtime:2.6.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\2e5000d61fa6b6e0acb8a2e3c70dfd11\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+99            android:exported="false" />
+99-->[androidx.room:room-runtime:2.6.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\2e5000d61fa6b6e0acb8a2e3c70dfd11\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+100
+101        <receiver
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+102            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+103            android:directBootAware="false"
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+104            android:enabled="true"
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+105            android:exported="true"
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+106            android:permission="android.permission.DUMP" >
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+108                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+111                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+114                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+115            </intent-filter>
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+117                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\59b687e23bfb644572cd47f9af36d03d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+118            </intent-filter>
+119        </receiver>
+120    </application>
+121
+122</manifest>

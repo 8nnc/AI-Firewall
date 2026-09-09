@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.aifirewall.app-mergeDebugResources-72:/values-h٧٢٠dp-v13/values-h٧٢٠dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yasser_tech\\.gradle\\caches\\8.11.1\\transforms\\ccb0cd002ef2ffa00c8ec035f9b072f6\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

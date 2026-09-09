@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aifirewall.app.engine.network.UdpForwarderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="٢٠٢٦-٠٩-٠٩T٢٠:٢٦:٥٧" hostname="AMRO" time="0.008">
+  <properties/>
+  <testcase name="testUdpFlowKeyUniqueness" classname="com.aifirewall.app.engine.network.UdpForwarderTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
