@@ -153,8 +153,11 @@ dependencies {
 
 gradle.taskGraph.whenReady {
     val isReleaseRequested = allTasks.any {
-        it.name.contains("Release", ignoreCase = true) &&
-            (it.name.startsWith("assemble") || it.name.startsWith("bundle") || it.name.startsWith("package"))
+        val name = it.name
+        !name.contains("test", ignoreCase = true) &&
+            !name.contains("lint", ignoreCase = true) &&
+            name.contains("Release", ignoreCase = true) &&
+            (name.startsWith("assemble") || name.startsWith("bundle") || name.equals("packageRelease", ignoreCase = true))
     }
     if (isReleaseRequested) {
         val releaseConfig = android.signingConfigs.findByName("release")
