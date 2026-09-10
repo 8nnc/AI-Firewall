@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aifirewall.app.engine.network.TcpForwarderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="٢٠٢٦-٠٩-١٠T١٩:١٦:٠٦" hostname="AMRO" time="0.01">
-  <properties/>
-  <testcase name="testTcpStateTransitions" classname="com.aifirewall.app.engine.network.TcpForwarderTest" time="0.003"/>
-  <testcase name="testTcpFlowKeyEquality" classname="com.aifirewall.app.engine.network.TcpForwarderTest" time="0.007"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
