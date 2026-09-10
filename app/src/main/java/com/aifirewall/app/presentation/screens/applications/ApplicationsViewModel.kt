@@ -182,8 +182,28 @@ class ApplicationsViewModel(
         _selectedPackages.value = current
     }
     
+    fun selectAll(apps: List<AppWithRule>) {
+        _selectedPackages.value = apps.map { it.app.packageName }.toSet()
+    }
+    
     fun clearSelection() {
         _selectedPackages.value = emptySet()
+    }
+
+    fun toggleWifiPolicy(item: AppWithRule) {
+        val newWifiPolicy = if (item.rule.wifiPolicy == NetworkPolicy.ALLOW) NetworkPolicy.BLOCK else NetworkPolicy.ALLOW
+        val updatedRule = item.rule.copy(wifiPolicy = newWifiPolicy)
+        viewModelScope.launch {
+            ruleRepository.saveRule(updatedRule)
+        }
+    }
+
+    fun toggleMobilePolicy(item: AppWithRule) {
+        val newMobilePolicy = if (item.rule.mobileDataPolicy == NetworkPolicy.ALLOW) NetworkPolicy.BLOCK else NetworkPolicy.ALLOW
+        val updatedRule = item.rule.copy(mobileDataPolicy = newMobilePolicy)
+        viewModelScope.launch {
+            ruleRepository.saveRule(updatedRule)
+        }
     }
     
     fun applyBulkPolicy(wifiPolicy: NetworkPolicy, mobilePolicy: NetworkPolicy) {

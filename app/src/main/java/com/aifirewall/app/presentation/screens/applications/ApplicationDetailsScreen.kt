@@ -1,5 +1,6 @@
 package com.aifirewall.app.presentation.screens.applications
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -13,13 +14,13 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
-import androidx.compose.material.icons.filled.Build
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Clear
-import androidx.compose.material.icons.filled.Share
+import androidx.compose.ui.res.painterResource
 import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -191,24 +192,25 @@ fun ApplicationDetailsScreen(
 
                 Surface(
                     modifier = Modifier.fillMaxWidth(),
-                    shape = MaterialTheme.shapes.medium,
-                    color = MaterialTheme.colorScheme.surfaceVariant
+                    shape = RoundedCornerShape(14.dp),
+                    color = MaterialTheme.colorScheme.surface,
+                    border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.25f))
                 ) {
                     Column(modifier = Modifier.padding(Dimens.SpaceStandard)) {
                         // Wi-Fi Rule
                         PolicyRow(
-                            label = "Wi-Fi",
-                            icon = Icons.Default.Share,
+                            label = stringResource(id = R.string.wifi),
+                            iconRes = R.drawable.ic_wifi,
                             policy = rule?.wifiPolicy ?: NetworkPolicy.ALLOW,
                             onPolicyChange = { viewModel.updateWifiPolicy(it) }
                         )
                         
-                        Divider(modifier = Modifier.padding(vertical = Dimens.SpaceSmall), color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.1f))
+                        Divider(modifier = Modifier.padding(vertical = Dimens.SpaceSmall), color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.15f))
                         
                         // Mobile Data Rule
                         PolicyRow(
-                            label = stringResource(id = R.string.nav_data_usage),
-                            icon = Icons.Default.Build,
+                            label = stringResource(id = R.string.mobile_data),
+                            iconRes = R.drawable.ic_cellular,
                             policy = rule?.mobileDataPolicy ?: NetworkPolicy.ALLOW,
                             onPolicyChange = { viewModel.updateMobilePolicy(it) }
                         )
@@ -228,8 +230,9 @@ fun ApplicationDetailsScreen(
 
                 Surface(
                     modifier = Modifier.fillMaxWidth(),
-                    shape = MaterialTheme.shapes.medium,
-                    color = MaterialTheme.colorScheme.surfaceVariant
+                    shape = RoundedCornerShape(14.dp),
+                    color = MaterialTheme.colorScheme.surface,
+                    border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.25f))
                 ) {
                     val activePolicy = if (isWifiActive) rule?.wifiPolicy else rule?.mobileDataPolicy
                     val activePolicyDefaulted = activePolicy ?: NetworkPolicy.ALLOW
@@ -255,7 +258,7 @@ fun ApplicationDetailsScreen(
                                 fontWeight = FontWeight.Bold,
                                 color = statusColor
                             )
-                            val transportText = if (isWifiActive) "Wi-Fi" else stringResource(id = R.string.nav_data_usage)
+                            val transportText = if (isWifiActive) stringResource(id = R.string.wifi) else stringResource(id = R.string.mobile_data)
                             Text(
                                 text = "Current Transport: $transportText",
                                 style = MaterialTheme.typography.bodyMedium,
@@ -278,8 +281,9 @@ fun ApplicationDetailsScreen(
 
                 Surface(
                     modifier = Modifier.fillMaxWidth(),
-                    shape = MaterialTheme.shapes.medium,
-                    color = MaterialTheme.colorScheme.surfaceVariant
+                    shape = RoundedCornerShape(14.dp),
+                    color = MaterialTheme.colorScheme.surface,
+                    border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.25f))
                 ) {
                     Column(modifier = Modifier.padding(Dimens.SpaceStandard)) {
                         Text(
@@ -305,9 +309,14 @@ fun ApplicationDetailsScreen(
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
                                 Row(verticalAlignment = Alignment.CenterVertically) {
-                                    Icon(imageVector = Icons.Default.Share, contentDescription = "Wi-Fi", tint = MaterialTheme.colorScheme.onSurfaceVariant)
+                                    Icon(
+                                        painter = painterResource(id = R.drawable.ic_wifi),
+                                        contentDescription = "Wi-Fi",
+                                        tint = MaterialTheme.colorScheme.onSurfaceVariant,
+                                        modifier = Modifier.size(20.dp)
+                                    )
                                     Text(
-                                        text = "Wi-Fi",
+                                        text = stringResource(id = R.string.wifi),
                                         modifier = Modifier.padding(start = Dimens.SpaceMedium),
                                         style = MaterialTheme.typography.bodyLarge,
                                         color = MaterialTheme.colorScheme.onSurfaceVariant
@@ -321,7 +330,7 @@ fun ApplicationDetailsScreen(
                                 )
                             }
                             
-                            Divider(modifier = Modifier.padding(vertical = Dimens.SpaceSmall), color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.1f))
+                            Divider(modifier = Modifier.padding(vertical = Dimens.SpaceSmall), color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.15f))
 
                             Row(
                                 modifier = Modifier.fillMaxWidth().padding(vertical = Dimens.SpaceSmall),
@@ -329,9 +338,14 @@ fun ApplicationDetailsScreen(
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
                                 Row(verticalAlignment = Alignment.CenterVertically) {
-                                    Icon(imageVector = Icons.Default.Build, contentDescription = "Mobile Data", tint = MaterialTheme.colorScheme.onSurfaceVariant)
+                                    Icon(
+                                        painter = painterResource(id = R.drawable.ic_cellular),
+                                        contentDescription = "Mobile Data",
+                                        tint = MaterialTheme.colorScheme.onSurfaceVariant,
+                                        modifier = Modifier.size(20.dp)
+                                    )
                                     Text(
-                                        text = stringResource(id = R.string.nav_data_usage),
+                                        text = stringResource(id = R.string.mobile_data),
                                         modifier = Modifier.padding(start = Dimens.SpaceMedium),
                                         style = MaterialTheme.typography.bodyLarge,
                                         color = MaterialTheme.colorScheme.onSurfaceVariant
@@ -427,20 +441,29 @@ fun ApplicationDetailsScreen(
 @Composable
 fun PolicyRow(
     label: String,
-    icon: androidx.compose.ui.graphics.vector.ImageVector,
+    iconRes: Int,
     policy: NetworkPolicy,
     onPolicyChange: (NetworkPolicy) -> Unit
 ) {
     Row(
-        modifier = Modifier.fillMaxWidth().padding(vertical = Dimens.SpaceSmall),
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = Dimens.SpaceSmall),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Icon(imageVector = icon, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant)
+        Icon(
+            painter = painterResource(id = iconRes),
+            contentDescription = null,
+            tint = MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.size(20.dp)
+        )
         Text(
             text = label,
-            modifier = Modifier.padding(start = Dimens.SpaceMedium).weight(1f),
+            modifier = Modifier
+                .padding(start = Dimens.SpaceMedium)
+                .weight(1f),
             style = MaterialTheme.typography.bodyLarge,
-            color = MaterialTheme.colorScheme.onSurfaceVariant
+            color = MaterialTheme.colorScheme.onSurface
         )
         
         Row {
@@ -473,12 +496,13 @@ fun PolicyToggleButton(
 ) {
     Surface(
         onClick = onClick,
-        shape = CircleShape,
-        color = if (isSelected) activeColor.copy(alpha = 0.2f) else Color.Transparent,
+        shape = RoundedCornerShape(8.dp),
+        color = if (isSelected) activeColor.copy(alpha = 0.15f) else Color.Transparent,
+        border = if (isSelected) BorderStroke(1.dp, activeColor.copy(alpha = 0.4f)) else null,
         contentColor = if (isSelected) activeColor else MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f)
     ) {
         Row(
-            modifier = Modifier.padding(horizontal = Dimens.SpaceStandard, vertical = Dimens.SpaceSmall),
+            modifier = Modifier.padding(horizontal = Dimens.SpaceMedium, vertical = 6.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Icon(imageVector = icon, contentDescription = null, modifier = Modifier.size(16.dp))
@@ -494,8 +518,9 @@ fun DetailItem(label: String, value: String) {
         modifier = Modifier
             .fillMaxWidth()
             .padding(bottom = Dimens.SpaceMedium),
-        shape = MaterialTheme.shapes.medium,
-        color = MaterialTheme.colorScheme.surfaceVariant
+        shape = RoundedCornerShape(14.dp),
+        color = MaterialTheme.colorScheme.surface,
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.25f))
     ) {
         Column(modifier = Modifier.padding(Dimens.SpaceStandard)) {
             Text(
@@ -503,9 +528,10 @@ fun DetailItem(label: String, value: String) {
                 style = MaterialTheme.typography.labelMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
+            Spacer(modifier = Modifier.height(2.dp))
             Text(
                 text = value,
-                style = MaterialTheme.typography.bodyLarge,
+                style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.SemiBold),
                 color = MaterialTheme.colorScheme.onSurface
             )
         }

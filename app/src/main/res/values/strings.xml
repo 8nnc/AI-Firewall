@@ -147,4 +147,64 @@
     <string name="splash_load_policies">LOADING FIREWALL POLICIES</string>
     <string name="splash_security_ready">SECURITY SYSTEM READY</string>
     <string name="splash_enterprise_shield">AI-FIREWALL ENTERPRISE DEFENSE</string>
+    
+    <!-- Applications & Data Usage Redesign Strings -->
+    <string name="sort_by">Sort By</string>
+    <string name="sort_name_asc">Name (A–Z)</string>
+    <string name="sort_name_desc">Name (Z–A)</string>
+    <string name="sort_usage_desc">Data Usage (High to Low)</string>
+    <string name="filter_type_user">User Apps</string>
+    <string name="filter_type_system">System Apps</string>
+    <string name="filter_type_all">All Types</string>
+    <string name="selected_count">%1$d Selected</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Deselect</string>
+    <string name="block_wifi">Block Wi-Fi</string>
+    <string name="block_mobile">Block Mobile</string>
+    <string name="block_both">Block Both</string>
+    <string name="allow_all">Allow All</string>
+    <string name="status_protected">PROTECTED</string>
+    <string name="status_blocked">BLOCKED</string>
+    <string name="status_partial">PARTIAL</string>
+    <string name="system_app_tag">SYSTEM</string>
+    <string name="user_app_tag">USER</string>
+    <string name="total_apps_count">%1$d Applications</string>
+    <string name="wifi_traffic">Wi-Fi Data</string>
+    <string name="cellular_traffic">Cellular Data</string>
+    <string name="traffic_distribution">Traffic Distribution</string>
+    <string name="active_consumers_count">%1$d Consuming Apps</string>
+    <string name="refresh">Refresh</string>
+    
+    <!-- Activity & Settings Redesign Strings -->
+    <string name="search_activity_hint">Search events, packages, IP…</string>
+    <string name="clear_activity">Clear History</string>
+    <string name="filter_events_all">All</string>
+    <string name="filter_events_blocked">Blocked</string>
+    <string name="filter_events_allowed">Allowed</string>
+    <string name="attempts_count">%1$d attempts</string>
+    <string name="event_details_title">Event Telemetry</string>
+    <string name="event_detail_endpoint">Destination Endpoint</string>
+    <string name="event_detail_reason">Policy Rule</string>
+    <string name="event_detail_timestamp">Timestamp</string>
+    <string name="event_detail_transport">Transport &amp; Protocol</string>
+    <string name="event_detail_uid">Application UID</string>
+    <string name="close">Close</string>
+    
+    <string name="settings_security_subtitle">Biometric lock, PIN protection &amp; auth</string>
+    <string name="settings_profiles_title">Firewall Profiles</string>
+    <string name="settings_profiles_subtitle">Manage and switch active firewall profiles</string>
+    <string name="settings_rule_groups_title">Rule Groups</string>
+    <string name="settings_rule_groups_subtitle">Manage rule groups for bulk application policies</string>
+    <string name="settings_diagnostics_subtitle">Verify tunnel integrity, routing, and latency</string>
+    <string name="settings_backup_title">Backup &amp; Restore</string>
+    <string name="settings_export_title">Export Configuration</string>
+    <string name="settings_export_subtitle">Save profiles and rules to a file</string>
+    <string name="settings_import_title">Import Configuration</string>
+    <string name="settings_import_subtitle">Restore profiles and rules from a file</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_dark">Dark Theme</string>
+    <string name="theme_light">Light Theme</string>
+    <string name="lang_system">System Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_arabic">العربية 🇾🇪</string>
 </resources>

@@ -146,4 +146,64 @@
     <string name="splash_load_policies">تحميل سياسات جدار الحماية</string>
     <string name="splash_security_ready">نظام الأمان جاهز</string>
     <string name="splash_enterprise_shield">حماية جدار الحماية الذكي المؤسسي</string>
+    
+    <!-- Applications & Data Usage Redesign Strings -->
+    <string name="sort_by">الترتيب حسب</string>
+    <string name="sort_name_asc">الاسم (أ–ي)</string>
+    <string name="sort_name_desc">الاسم (ي–أ)</string>
+    <string name="sort_usage_desc">استهلاك البيانات (الأعلى أولاً)</string>
+    <string name="filter_type_user">تطبيقات المستخدم</string>
+    <string name="filter_type_system">تطبيقات النظام</string>
+    <string name="filter_type_all">جميع الأنواع</string>
+    <string name="selected_count">تم تحديد %1$d</string>
+    <string name="select_all">تحديد الكل</string>
+    <string name="deselect_all">إلغاء التحديد</string>
+    <string name="block_wifi">حظر الواي فاي</string>
+    <string name="block_mobile">حظر بيانات الهاتف</string>
+    <string name="block_both">حظر كلاهما</string>
+    <string name="allow_all">السماح للكل</string>
+    <string name="status_protected">محمي</string>
+    <string name="status_blocked">محظور</string>
+    <string name="status_partial">جزئي</string>
+    <string name="system_app_tag">نظام</string>
+    <string name="user_app_tag">مستخدم</string>
+    <string name="total_apps_count">%1$d تطبيق</string>
+    <string name="wifi_traffic">حركة الواي فاي</string>
+    <string name="cellular_traffic">بيانات الهاتف</string>
+    <string name="traffic_distribution">توزيع حركة الشبكة</string>
+    <string name="active_consumers_count">%1$d تطبيق مستهلك</string>
+    <string name="refresh">تحديث</string>
+    
+    <!-- Activity & Settings Redesign Strings -->
+    <string name="search_activity_hint">البحث في الأحداث، الحزم، العناوين…</string>
+    <string name="clear_activity">مسح السجل</string>
+    <string name="filter_events_all">الكل</string>
+    <string name="filter_events_blocked">المحظورة</string>
+    <string name="filter_events_allowed">المسموحة</string>
+    <string name="attempts_count">%1$d محاولات</string>
+    <string name="event_details_title">تفاصيل الحدث الأمني</string>
+    <string name="event_detail_endpoint">نقطة النهاية</string>
+    <string name="event_detail_reason">قاعدة السياسة</string>
+    <string name="event_detail_timestamp">الوقت والتاريخ</string>
+    <string name="event_detail_transport">المنفذ والبروتوكول</string>
+    <string name="event_detail_uid">معرف التطبيق (UID)</string>
+    <string name="close">إغلاق</string>
+    
+    <string name="settings_security_subtitle">القفل البيومتري ورمز PIN والأمان</string>
+    <string name="settings_profiles_title">ملفات تعريف جدار الحماية</string>
+    <string name="settings_profiles_subtitle">إدارة وتبديل ملفات تعريف جدار الحماية النشطة</string>
+    <string name="settings_rule_groups_title">مجموعات القواعد</string>
+    <string name="settings_rule_groups_subtitle">إدارة مجموعات القواعد لتطبيق السياسات دفعة واحدة</string>
+    <string name="settings_diagnostics_subtitle">التحقق من تكامل النفق والتوجيه وزمن الاستجابة</string>
+    <string name="settings_backup_title">النسخ الاحتياطي والاستعادة</string>
+    <string name="settings_export_title">تصدير التهيئة</string>
+    <string name="settings_export_subtitle">حفظ الملفات التعريفية والقواعد في ملف</string>
+    <string name="settings_import_title">استيراد التهيئة</string>
+    <string name="settings_import_subtitle">استعادة الملفات التعريفية والقواعد من ملف</string>
+    <string name="theme_system">افتراضي النظام</string>
+    <string name="theme_dark">الوضع الداكن</string>
+    <string name="theme_light">الوضع الفاتح</string>
+    <string name="lang_system">لغة النظام</string>
+    <string name="lang_english">English</string>
+    <string name="lang_arabic">العربية 🇾🇪</string>
 </resources>
