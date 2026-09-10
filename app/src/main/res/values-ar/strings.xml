@@ -82,6 +82,7 @@
     
     <string name="firewall_starting">جارٍ التشغيل...</string>
     <string name="firewall_active">جدار الحماية يحمي جهازك حالياً</string>
+    <string name="firewall_stopping">جارٍ إيقاف جدار الحماية...</string>
     <string name="firewall_inactive">غير نشط</string>
     <string name="firewall_error">حدث خطأ في جدار الحماية</string>
     <string name="vpn_permission_required">إذن VPN مطلوب لحماية جهازك.</string>
@@ -95,4 +96,54 @@
     <string name="biometric_auth">المصادقة البيومترية</string>
     <string name="unlock_firewall">إلغاء قفل جدار الحماية</string>
     <string name="incorrect_pin">رمز PIN غير صحيح. يرجى المحاولة مرة أخرى.</string>
+    
+    <!-- Enterprise Dashboard Strings -->
+    <string name="enterprise_tier">مؤسسي</string>
+    <string name="status_stopping">جارٍ الإيقاف</string>
+    <string name="firewall_protected_title">الحماية نشطة</string>
+    <string name="firewall_inactive_title">الحماية متوقفة</string>
+    <string name="firewall_starting_title">تهيئة النفق</string>
+    <string name="firewall_stopping_title">إغلاق النفق</string>
+    <string name="firewall_error_title">خطأ في الحماية</string>
+    <string name="firewall_active_desc">فحص حزم البيانات المباشر وتطبيق السياسات نشط</string>
+    <string name="firewall_inactive_desc">حركة مرور الجهاز غير مراقبة وغير محمية حالياً</string>
+    <string name="firewall_starting_desc">جارٍ إنشاء واجهة VPN المحلية وتطبيق مرشحات السياسة</string>
+    <string name="firewall_stopping_desc">جارٍ إغلاق واجهة الشبكة الافتراضية بأمان</string>
+    <string name="firewall_error_desc">أبلغ نظام جدار الحماية عن فشل في التهيئة</string>
+    <string name="enable_protection">تفعيل الحماية</string>
+    <string name="disable_protection">فصل جدار الحماية</string>
+    <string name="status_processing">جارٍ المعالجة...</string>
+    <string name="security_telemetry">قياسات الأمان</string>
+    <string name="protection_metrics">مؤشرات الحماية</string>
+    <string name="recent_activity">النشاط الأمني الأخير</string>
+    <string name="view_all_activity">عرض الكل</string>
+    <string name="no_recent_activity">لم يتم رصد أي حوادث أمنية</string>
+    <string name="no_recent_activity_desc">ستظهر محاولات الاتصال المحظورة وسجلات الشبكة هنا</string>
+    <string name="active_rules_count">القواعد النشطة</string>
+    <string name="configured_rules_count">القواعد المُهيأة</string>
+    <string name="network_status">منفذ الشبكة</string>
+    <string name="network_wifi">متصل بالواي فاي</string>
+    <string name="network_cellular">بيانات الهاتف</string>
+    <string name="network_disconnected">غير متصل</string>
+    <string name="network_unknown">شبكة غير معروفة</string>
+    <string name="vpn_tunnel">واجهة VPN</string>
+    <string name="vpn_active">مشفرة ونشطة</string>
+    <string name="vpn_standby">في وضع الاستعداد</string>
+    <string name="policy_engine">محرك السياسات</string>
+    <string name="policy_enforcing">تطبيق القواعد</string>
+    <string name="policy_standby">خامل / السماح الافتراضي</string>
+    <string name="app_protection_title">جدار حماية التطبيقات</string>
+    <string name="app_protection_desc">إدارة قواعد وصول الواي فاي وبيانات الهاتف لكل تطبيق</string>
+    <string name="manage_apps">إدارة القواعد</string>
+    <string name="diagnostics_title">تشخيص النظام</string>
+    <string name="diagnostics_desc">التحقق من تكامل النفق والتوجيه وزمن الاستجابة</string>
+    <string name="run_diagnostics">تشغيل الفحص</string>
+    <string name="traffic_inspected">تمت تصفية الحركة</string>
+    
+    <!-- Startup Experience Strings -->
+    <string name="splash_init_engine">تهيئة محرك الأمان</string>
+    <string name="splash_check_network">فحص واجهات الشبكة</string>
+    <string name="splash_load_policies">تحميل سياسات جدار الحماية</string>
+    <string name="splash_security_ready">نظام الأمان جاهز</string>
+    <string name="splash_enterprise_shield">حماية جدار الحماية الذكي المؤسسي</string>
 </resources>

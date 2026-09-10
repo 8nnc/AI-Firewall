@@ -71,6 +71,7 @@ object FirewallEventManager {
                         bytes = recentEvent.bytes + event.bytes
                     )
                     repository.updateEvent(updatedEvent)
+                    notificationHelper?.notifyBlockedConnection(event)
                 } else {
                     // Insert new flow
                     repository.insertEvent(event)

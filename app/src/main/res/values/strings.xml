@@ -83,6 +83,7 @@
     
     <string name="firewall_starting">Firewall starting...</string>
     <string name="firewall_active">Firewall is actively protecting your device</string>
+    <string name="firewall_stopping">Stopping firewall...</string>
     <string name="firewall_inactive">Firewall inactive</string>
     <string name="firewall_error">Firewall encountered an error</string>
     <string name="vpn_permission_required">VPN permission required to protect your device.</string>
@@ -96,4 +97,54 @@
     <string name="biometric_auth">Biometric Authentication</string>
     <string name="unlock_firewall">Unlock AI Firewall</string>
     <string name="incorrect_pin">Incorrect PIN. Please try again.</string>
+    
+    <!-- Enterprise Dashboard Strings -->
+    <string name="enterprise_tier">ENTERPRISE</string>
+    <string name="status_stopping">Stopping</string>
+    <string name="firewall_protected_title">PROTECTION ACTIVE</string>
+    <string name="firewall_inactive_title">PROTECTION PAUSED</string>
+    <string name="firewall_starting_title">INITIALIZING TUNNEL</string>
+    <string name="firewall_stopping_title">CLOSING TUNNEL</string>
+    <string name="firewall_error_title">PROTECTION ERROR</string>
+    <string name="firewall_active_desc">Real-time stateful packet inspection active</string>
+    <string name="firewall_inactive_desc">Device traffic is unmonitored and unprotected</string>
+    <string name="firewall_starting_desc">Establishing local VPN interface and policy filters</string>
+    <string name="firewall_stopping_desc">Tearing down virtual network interface cleanly</string>
+    <string name="firewall_error_desc">Firewall subsystem reported a configuration failure</string>
+    <string name="enable_protection">ENABLE PROTECTION</string>
+    <string name="disable_protection">DISCONNECT FIREWALL</string>
+    <string name="status_processing">PROCESSING...</string>
+    <string name="security_telemetry">Security Telemetry</string>
+    <string name="protection_metrics">Protection Metrics</string>
+    <string name="recent_activity">Recent Security Activity</string>
+    <string name="view_all_activity">View All</string>
+    <string name="no_recent_activity">No security incidents detected</string>
+    <string name="no_recent_activity_desc">Real-time connection events and drops will appear here</string>
+    <string name="active_rules_count">Active Rules</string>
+    <string name="configured_rules_count">Configured Rules</string>
+    <string name="network_status">Network Uplink</string>
+    <string name="network_wifi">Wi-Fi Connected</string>
+    <string name="network_cellular">Cellular Data</string>
+    <string name="network_disconnected">No Connection</string>
+    <string name="network_unknown">Unknown Uplink</string>
+    <string name="vpn_tunnel">VPN Interface</string>
+    <string name="vpn_active">Encrypted &amp; Active</string>
+    <string name="vpn_standby">Standby (Offline)</string>
+    <string name="policy_engine">Policy Engine</string>
+    <string name="policy_enforcing">Enforcing Rules</string>
+    <string name="policy_standby">Idle / Default Allow</string>
+    <string name="app_protection_title">Application Firewall</string>
+    <string name="app_protection_desc">Manage per-app Wi-Fi and cellular access rules</string>
+    <string name="manage_apps">Manage Rules</string>
+    <string name="diagnostics_title">System Diagnostics</string>
+    <string name="diagnostics_desc">Verify tunnel integrity, routing, and latency</string>
+    <string name="run_diagnostics">Run Diagnostics</string>
+    <string name="traffic_inspected">Traffic Filtered</string>
+    
+    <!-- Startup Experience Strings -->
+    <string name="splash_init_engine">INITIALIZING SECURITY ENGINE</string>
+    <string name="splash_check_network">CHECKING NETWORK INTERFACES</string>
+    <string name="splash_load_policies">LOADING FIREWALL POLICIES</string>
+    <string name="splash_security_ready">SECURITY SYSTEM READY</string>
+    <string name="splash_enterprise_shield">AI-FIREWALL ENTERPRISE DEFENSE</string>
 </resources>
