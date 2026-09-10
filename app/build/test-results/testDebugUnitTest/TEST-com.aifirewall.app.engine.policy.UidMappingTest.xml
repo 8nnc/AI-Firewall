@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aifirewall.app.engine.policy.UidMappingTest" tests="4" skipped="0" failures="0" errors="0" timestamp="٢٠٢٦-٠٩-١٠T١٨:٣٨:٢٤" hostname="AMRO" time="0.009">
+<testsuite name="com.aifirewall.app.engine.policy.UidMappingTest" tests="4" skipped="0" failures="0" errors="0" timestamp="٢٠٢٦-٠٩-١٠T١٩:١٦:٠٦" hostname="AMRO" time="0.016">
   <properties/>
-  <testcase name="testInvalidUidMinusOneReturnsUnknownApplication" classname="com.aifirewall.app.engine.policy.UidMappingTest" time="0.002"/>
+  <testcase name="testInvalidUidMinusOneReturnsUnknownApplication" classname="com.aifirewall.app.engine.policy.UidMappingTest" time="0.004"/>
   <testcase name="testValidUidResolvesCorrectPackage" classname="com.aifirewall.app.engine.policy.UidMappingTest" time="0.003"/>
-  <testcase name="testUnmappedInstalledUidReturnsFallbackUidString" classname="com.aifirewall.app.engine.policy.UidMappingTest" time="0.002"/>
-  <testcase name="testZeroUidReturnsUnknownApplication" classname="com.aifirewall.app.engine.policy.UidMappingTest" time="0.002"/>
+  <testcase name="testUnmappedInstalledUidReturnsFallbackUidString" classname="com.aifirewall.app.engine.policy.UidMappingTest" time="0.003"/>
+  <testcase name="testZeroUidReturnsUnknownApplication" classname="com.aifirewall.app.engine.policy.UidMappingTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

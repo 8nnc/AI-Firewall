@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aifirewall.app.engine.parser.PacketParserTest" tests="4" skipped="0" failures="0" errors="0" timestamp="٢٠٢٦-٠٩-١٠T١٨:٣٨:٢٤" hostname="AMRO" time="0.003">
+<testsuite name="com.aifirewall.app.engine.parser.PacketParserTest" tests="4" skipped="0" failures="0" errors="0" timestamp="٢٠٢٦-٠٩-١٠T١٩:١٦:٠٦" hostname="AMRO" time="0.004">
   <properties/>
-  <testcase name="testParseTruncatedPacketReturnsNull" classname="com.aifirewall.app.engine.parser.PacketParserTest" time="0.001"/>
+  <testcase name="testParseTruncatedPacketReturnsNull" classname="com.aifirewall.app.engine.parser.PacketParserTest" time="0.002"/>
   <testcase name="testParseIPv6Packet" classname="com.aifirewall.app.engine.parser.PacketParserTest" time="0.001"/>
   <testcase name="testParseIPv4UdpPacket" classname="com.aifirewall.app.engine.parser.PacketParserTest" time="0.0"/>
-  <testcase name="testParseIPv4TcpSynPacket" classname="com.aifirewall.app.engine.parser.PacketParserTest" time="0.001"/>
+  <testcase name="testParseIPv4TcpSynPacket" classname="com.aifirewall.app.engine.parser.PacketParserTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

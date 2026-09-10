@@ -75,27 +75,37 @@ fun DashboardScreen(navController: androidx.navigation.NavController) {
         }
     }
 
+    val securityManager = remember { com.aifirewall.app.core.security.SecurityManager.getInstance(context) }
+
+    val handleToggle: () -> Unit = {
+        if (firewallState == FirewallState.INACTIVE || firewallState == FirewallState.ERROR) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
+                ContextCompat.checkSelfPermission(context, android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+                notificationPermissionLauncher.launch(android.Manifest.permission.POST_NOTIFICATIONS)
+            } else {
+                val vpnIntent = try {
+                    VpnService.prepare(context)
+                } catch (e: Exception) {
+                    null
+                }
+                if (vpnIntent != null) {
+                    vpnPermissionLauncher.launch(vpnIntent)
+                } else {
+                    viewModel.startVpnService(context)
+                }
+            }
+        } else {
+            viewModel.stopVpnService(context)
+        }
+    }
+
     var showAuthForToggle by remember { mutableStateOf(false) }
 
     if (showAuthForToggle) {
         com.aifirewall.app.presentation.screens.security.RequireAuthentication(
             onAuthenticated = {
                 showAuthForToggle = false
-                if (firewallState == FirewallState.INACTIVE || firewallState == FirewallState.ERROR) {
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
-                        ContextCompat.checkSelfPermission(context, android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
-                        notificationPermissionLauncher.launch(android.Manifest.permission.POST_NOTIFICATIONS)
-                    } else {
-                        val vpnIntent = VpnService.prepare(context)
-                        if (vpnIntent != null) {
-                            vpnPermissionLauncher.launch(vpnIntent)
-                        } else {
-                            viewModel.startVpnService(context)
-                        }
-                    }
-                } else {
-                    viewModel.stopVpnService(context)
-                }
+                handleToggle()
             },
             onCancel = { showAuthForToggle = false }
         ) {
@@ -145,7 +155,13 @@ fun DashboardScreen(navController: androidx.navigation.NavController) {
             FirewallStatusCard(
                 status = status,
                 statusText = statusText,
-                onToggle = { showAuthForToggle = true }
+                onToggle = {
+                    if (securityManager.isLocked()) {
+                        showAuthForToggle = true
+                    } else {
+                        handleToggle()
+                    }
+                }
             )
             ProtectionSummarySection(viewModel = viewModel)
             

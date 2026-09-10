@@ -176,6 +176,34 @@ fun DiagnosticsScreen(
                         }
                     }
                 }
+
+                if (firewallState != FirewallState.ACTIVE) {
+                    Spacer(modifier = Modifier.height(Dimens.SpaceLarge))
+                    Button(
+                        onClick = {
+                            val vpnIntent = try {
+                                VpnService.prepare(context)
+                            } catch (e: Exception) {
+                                null
+                            }
+                            if (vpnIntent != null) {
+                                vpnPermissionLauncher.launch(vpnIntent)
+                            } else {
+                                val intent = android.content.Intent(context, com.aifirewall.app.engine.service.FirewallVpnService::class.java).apply {
+                                    action = com.aifirewall.app.engine.service.FirewallVpnService.ACTION_START
+                                }
+                                androidx.core.content.ContextCompat.startForegroundService(context, intent)
+                                coroutineScope.launch {
+                                    delay(1000)
+                                    results = runDiagnostics(context, FirewallStateManager.firewallState.value)
+                                }
+                            }
+                        },
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Text("Turn On Firewall Now")
+                    }
+                }
             }
         }
     }
@@ -210,7 +238,13 @@ suspend fun runDiagnostics(context: Context, firewallState: FirewallState): List
                 FirewallState.INACTIVE -> DiagnosticStatus.WARNING
                 else -> DiagnosticStatus.FAIL
             },
-            reason = firewallState.name
+            reason = when (firewallState) {
+                FirewallState.ACTIVE -> "Active and Protecting"
+                FirewallState.INACTIVE -> "INACTIVE (Turn ON to activate)"
+                FirewallState.STARTING -> "Starting..."
+                FirewallState.STOPPING -> "Stopping..."
+                FirewallState.ERROR -> "Service Error"
+            }
         )
     )
     
@@ -253,7 +287,7 @@ suspend fun runDiagnostics(context: Context, firewallState: FirewallState): List
         DiagnosticResult(
             name = "DNS Resolution",
             status = if (firewallState == FirewallState.ACTIVE) DiagnosticStatus.PASS else DiagnosticStatus.WARNING,
-            reason = if (firewallState == FirewallState.ACTIVE) "Forwarding to system DNS" else "Engine inactive"
+            reason = if (firewallState == FirewallState.ACTIVE) "Forwarding to system DNS" else "Engine inactive (Firewall is OFF)"
         )
     )
 

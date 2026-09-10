@@ -14,7 +14,7 @@ import com.aifirewall.app.core.security.SecurityManager
 fun RequireAuthentication(
     onAuthenticated: () -> Unit,
     onCancel: () -> Unit = {},
-    content: @Composable () -> Unit
+    content: @Composable () -> Unit = {}
 ) {
     val context = LocalContext.current
     val securityManager = remember { SecurityManager.getInstance(context) }
@@ -23,12 +23,18 @@ fun RequireAuthentication(
     var showAuth by remember { mutableStateOf(isLocked) }
 
     LaunchedEffect(isLocked) {
-        showAuth = isLocked
+        if (!isLocked) {
+            showAuth = false
+            onAuthenticated()
+        } else {
+            showAuth = true
+        }
     }
 
     if (showAuth) {
         SecurityLockScreen(
             onSuccess = {
+                securityManager.unlockSession()
                 showAuth = false
                 onAuthenticated()
             },
