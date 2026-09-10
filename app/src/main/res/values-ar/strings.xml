@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">جدار الحماية الذكي 🇾🇪</string>
+    <string name="welcome_message">مرحباً بك في جدار الحماية الذكي</string>
+    <string name="firewall_status_enabled">جدار الحماية مفعل</string>
+    <string name="firewall_status_disabled">جدار الحماية معطل</string>
+    <string name="splash_subtitle">تطبيقاتك. قواعدك. شبكتك.</string>
+    <string name="nav_dashboard">لوحة التحكم</string>
+    <string name="status_active">نشط</string>
+    <string name="status_inactive">معطل</string>
+    <string name="status_starting">جاري التشغيل</string>
+    <string name="status_error">خطأ</string>
+    <string name="firewall_protection">حماية جدار الحماية</string>
+    <string name="network_traffic">تم فحص حركة الشبكة</string>
+    <string name="nav_applications">التطبيقات</string>
+    <string name="nav_data_usage">استهلاك البيانات</string>
+    <string name="nav_settings">الإعدادات</string>
+    
+    <string name="data_unavailable">البيانات غير متاحة</string>
+    <string name="no_applications_found">لم يتم العثور على تطبيقات</string>
+    <string name="blocked_apps">التطبيقات المحظورة</string>
+    <string name="allowed_apps">التطبيقات المسموحة</string>
+    <string name="blocked_connections">الاتصالات المحظورة</string>
+    
+    <string name="search_hint">البحث في التطبيقات…</string>
+    
+    <string name="tab_today">اليوم</string>
+    <string name="tab_this_week">هذا الأسبوع</string>
+    <string name="tab_this_month">هذا الشهر</string>
+    <string name="top_data_consuming">التطبيقات الأكثر استهلاكاً للبيانات</string>
+    <string name="wifi">الواي فاي</string>
+    <string name="mobile_data">بيانات الهاتف</string>
+    
+    <string name="settings_appearance">المظهر</string>
+    <string name="settings_theme">السمة</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_security">الأمان</string>
+    <string name="settings_app_lock">قفل التطبيق</string>
+    <string name="settings_biometric">المصادقة البيومترية</string>
+    <string name="settings_notifications">الإشعارات</string>
+    <string name="settings_firewall">جدار الحماية</string>
+    <string name="settings_about">حول</string>
+    <string name="settings_version">الإصدار</string>
+    <string name="settings_privacy">سياسة الخصوصية</string>
+    
+    <string name="filter_all">الكل</string>
+    <string name="filter_allowed">مسموح</string>
+    <string name="filter_blocked">محظور</string>
+    <string name="filter_wifi_blocked">محظور واي فاي</string>
+    <string name="filter_mobile_blocked">محظور بيانات</string>
+    <string name="internet_access">الوصول إلى الإنترنت</string>
+    <string name="allowed">مسموح</string>
+    <string name="blocked">محظور</string>
+    <string name="not_configured">غير مُهيأ</string>
+    <string name="configured_to_block">مهيأ للحظر</string>
+    <string name="rule_saved">تم حفظ قاعدة الشبكة</string>
+    <string name="title_themes">السمات</string>
+    <string name="theme_cyber_blue">أزرق سيبراني</string>
+    <string name="theme_neon_green">أخضر نيون</string>
+    <string name="theme_crimson_red">أحمر قرمزي</string>
+    
+    <!-- Phase 9 Strings -->
+    <string name="nav_activity">النشاط</string>
+    <string name="security_events_channel_name">أحداث الأمان</string>
+    <string name="security_events_channel_desc">تنبيهات جدار الحماية والأمان الهامة</string>
+    <string name="blocked_connections_channel_name">الاتصالات المحظورة</string>
+    <string name="blocked_connections_channel_desc">إشعارات اتصالات التطبيقات المحظورة</string>
+    <string name="connection_blocked">تم حظر الاتصال</string>
+    <string name="app_blocked_single">حاول %1$s إجراء اتصال محظور</string>
+    <string name="apps_blocked_multiple">تم حظر %1$d اتصالات</string>
+    <string name="no_activity">لا يوجد نشاط لجدار الحماية</string>
+    <string name="save">حفظ</string>
+    <string name="time_today">اليوم</string>
+    <string name="time_this_week">هذا الأسبوع</string>
+    <string name="time_this_month">هذا الشهر</string>
+    <string name="permission_required">الإذن مطلوب</string>
+    <string name="grant_permission">منح الإذن</string>
+    <string name="usage_permission_desc">لعرض استهلاك البيانات الفعلي لكل تطبيق وإحصائيات الشبكة، يرجى منح إذن الوصول إلى الاستخدام لجدار حماية AI.</string>
+    <string name="download">التنزيل</string>
+    <string name="upload">الرفع</string>
+    <string name="total_usage">الإجمالي</string>
+    <string name="top_applications">أكثر التطبيقات استهلاكاً</string>
+    
+    <string name="firewall_starting">جارٍ التشغيل...</string>
+    <string name="firewall_active">جدار الحماية يحمي جهازك حالياً</string>
+    <string name="firewall_inactive">غير نشط</string>
+    <string name="firewall_error">حدث خطأ في جدار الحماية</string>
+    <string name="vpn_permission_required">إذن VPN مطلوب لحماية جهازك.</string>
+    
+    <string name="enforcement_status">حالة التطبيق</string>
+    <string name="enforced">مُطبّق</string>
+    <string name="configured">مُهيأ</string>
+    <string name="not_active">غير نشط</string>
+    <string name="applications_blocked">التطبيقات المحظورة</string>
+    <string name="security_lock">قفل الأمان</string>
+    <string name="biometric_auth">المصادقة البيومترية</string>
+    <string name="unlock_firewall">إلغاء قفل جدار الحماية</string>
+    <string name="incorrect_pin">رمز PIN غير صحيح. يرجى المحاولة مرة أخرى.</string>
+</resources>
