@@ -12,7 +12,7 @@
             replacement="1.2.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="15"
             column="95"
             startOffset="361"
@@ -32,7 +32,7 @@
             replacement="1.19.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="4"
             column="11"
             startOffset="53"
@@ -52,7 +52,7 @@
             replacement="1.3.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="6"
             column="16"
             startOffset="94"
@@ -72,7 +72,7 @@
             replacement="3.7.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="7"
             column="16"
             startOffset="117"
@@ -92,7 +92,7 @@
             replacement="2.11.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="8"
             column="23"
             startOffset="147"
@@ -112,7 +112,7 @@
             replacement="2.11.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="8"
             column="23"
             startOffset="147"
@@ -132,7 +132,7 @@
             replacement="2.11.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="8"
             column="23"
             startOffset="147"
@@ -152,7 +152,7 @@
             replacement="1.13.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="9"
             column="19"
             startOffset="173"
@@ -172,7 +172,7 @@
             replacement="2026.09.00"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="10"
             column="14"
             startOffset="194"
@@ -192,7 +192,7 @@
             replacement="2.10.1"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="11"
             column="21"
             startOffset="227"
@@ -212,7 +212,7 @@
             replacement="5.12.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="12"
             column="11"
             startOffset="245"
@@ -242,7 +242,7 @@
                 priority="0"/>
         </fix-alternatives>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="2"
             column="7"
             startOffset="17"

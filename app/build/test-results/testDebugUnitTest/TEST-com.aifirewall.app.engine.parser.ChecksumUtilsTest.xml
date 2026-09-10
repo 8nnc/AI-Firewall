@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aifirewall.app.engine.parser.ChecksumUtilsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="٢٠٢٦-٠٩-٠٩T٢٠:٢٦:٥٧" hostname="AMRO" time="0.015">
+<testsuite name="com.aifirewall.app.engine.parser.ChecksumUtilsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="٢٠٢٦-٠٩-١٠T١٨:٣٨:٢٤" hostname="AMRO" time="0.005">
   <properties/>
-  <testcase name="testTransportChecksumIPv4" classname="com.aifirewall.app.engine.parser.ChecksumUtilsTest" time="0.014"/>
+  <testcase name="testTransportChecksumIPv4" classname="com.aifirewall.app.engine.parser.ChecksumUtilsTest" time="0.005"/>
   <testcase name="testTransportChecksumIPv6" classname="com.aifirewall.app.engine.parser.ChecksumUtilsTest" time="0.0"/>
   <testcase name="testIpHeaderChecksumCalculation" classname="com.aifirewall.app.engine.parser.ChecksumUtilsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

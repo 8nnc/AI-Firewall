@@ -12,7 +12,7 @@
         errorLine1="        val mode = appOpsManager.unsafeCheckOpNoThrow("
         errorLine2="                                 ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\data\repository\DataUsageRepository.kt"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\data\repository\DataUsageRepository.kt"
             line="22"
             column="34"/>
     </issue>
@@ -28,7 +28,7 @@
         errorLine1="agp = &quot;8.9.1&quot;"
         errorLine2="      ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="2"
             column="7"/>
     </issue>
@@ -44,7 +44,7 @@
         errorLine1="agp = &quot;8.9.1&quot;"
         errorLine2="      ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="2"
             column="7"/>
     </issue>
@@ -60,7 +60,7 @@
         errorLine1="agp = &quot;8.9.1&quot;"
         errorLine2="      ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="2"
             column="7"/>
     </issue>
@@ -76,8 +76,8 @@
         errorLine1="    implementation(&quot;androidx.core:core-ktx:1.13.1&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="107"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="112"
             column="20"/>
     </issue>
 
@@ -92,8 +92,8 @@
         errorLine1="    implementation(&quot;androidx.core:core-splashscreen:1.0.1&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="108"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="113"
             column="20"/>
     </issue>
 
@@ -108,8 +108,8 @@
         errorLine1="    implementation(&quot;androidx.lifecycle:lifecycle-runtime-ktx:2.8.2&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="109"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="114"
             column="20"/>
     </issue>
 
@@ -124,8 +124,8 @@
         errorLine1="    implementation(&quot;androidx.activity:activity-compose:1.9.0&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="110"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="115"
             column="20"/>
     </issue>
 
@@ -140,8 +140,8 @@
         errorLine1="    implementation(&quot;androidx.appcompat:appcompat:1.6.1&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="112"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="117"
             column="20"/>
     </issue>
 
@@ -156,24 +156,8 @@
         errorLine1="    implementation(&quot;com.google.android.material:material:1.12.0&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="113"
-            column="20"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        severity="Warning"
-        message="A newer version of androidx.compose:compose-bom than 2024.06.00 is available: 2026.09.00"
-        category="Correctness"
-        priority="4"
-        summary="Obsolete Gradle Dependency"
-        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
-        errorLine1="    implementation(platform(&quot;androidx.compose:compose-bom:2024.06.00&quot;))"
-        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="116"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="118"
             column="20"/>
     </issue>
 
@@ -188,8 +172,8 @@
         errorLine1="    implementation(&quot;androidx.navigation:navigation-compose:2.7.7&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="123"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="128"
             column="20"/>
     </issue>
 
@@ -204,8 +188,8 @@
         errorLine1="    implementation(&quot;androidx.datastore:datastore-preferences:1.1.1&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="126"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="131"
             column="20"/>
     </issue>
 
@@ -220,8 +204,8 @@
         errorLine1="    implementation(&quot;androidx.security:security-crypto:1.1.0-alpha06&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="130"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="135"
             column="20"/>
     </issue>
 
@@ -236,8 +220,8 @@
         errorLine1="    implementation(&quot;androidx.room:room-runtime:$roomVersion&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="140"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="145"
             column="20"/>
     </issue>
 
@@ -252,8 +236,8 @@
         errorLine1="    implementation(&quot;androidx.room:room-ktx:$roomVersion&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="141"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="146"
             column="20"/>
     </issue>
 
@@ -268,8 +252,8 @@
         errorLine1="    kapt(&quot;androidx.room:room-compiler:$roomVersion&quot;)"
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="142"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="147"
             column="10"/>
     </issue>
 
@@ -284,8 +268,8 @@
         errorLine1="    androidTestImplementation(&quot;androidx.test.ext:junit:1.2.0&quot;)"
         errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="146"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="151"
             column="31"/>
     </issue>
 
@@ -300,24 +284,8 @@
         errorLine1="    androidTestImplementation(&quot;androidx.test.espresso:espresso-core:3.6.0&quot;)"
         errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="147"
-            column="31"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        severity="Warning"
-        message="A newer version of androidx.compose:compose-bom than 2024.06.00 is available: 2026.09.00"
-        category="Correctness"
-        priority="4"
-        summary="Obsolete Gradle Dependency"
-        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
-        errorLine1="    androidTestImplementation(platform(&quot;androidx.compose:compose-bom:2024.06.00&quot;))"
-        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="148"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="152"
             column="31"/>
     </issue>
 
@@ -332,7 +300,7 @@
         errorLine1="coreKtx = &quot;1.13.1&quot;"
         errorLine2="          ~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="4"
             column="11"/>
     </issue>
@@ -348,7 +316,7 @@
         errorLine1="coreKtx = &quot;1.13.1&quot;"
         errorLine2="          ~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="4"
             column="11"/>
     </issue>
@@ -364,7 +332,7 @@
         errorLine1="coreKtx = &quot;1.13.1&quot;"
         errorLine2="          ~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="4"
             column="11"/>
     </issue>
@@ -380,7 +348,7 @@
         errorLine1="junitVersion = &quot;1.1.5&quot;"
         errorLine2="               ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="6"
             column="16"/>
     </issue>
@@ -396,7 +364,7 @@
         errorLine1="junitVersion = &quot;1.1.5&quot;"
         errorLine2="               ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="6"
             column="16"/>
     </issue>
@@ -412,7 +380,7 @@
         errorLine1="junitVersion = &quot;1.1.5&quot;"
         errorLine2="               ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="6"
             column="16"/>
     </issue>
@@ -428,7 +396,7 @@
         errorLine1="espressoCore = &quot;3.5.1&quot;"
         errorLine2="               ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="7"
             column="16"/>
     </issue>
@@ -444,7 +412,7 @@
         errorLine1="espressoCore = &quot;3.5.1&quot;"
         errorLine2="               ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="7"
             column="16"/>
     </issue>
@@ -460,7 +428,7 @@
         errorLine1="espressoCore = &quot;3.5.1&quot;"
         errorLine2="               ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="7"
             column="16"/>
     </issue>
@@ -476,7 +444,7 @@
         errorLine1="lifecycleRuntimeKtx = &quot;2.8.0&quot;"
         errorLine2="                      ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="8"
             column="23"/>
     </issue>
@@ -492,7 +460,7 @@
         errorLine1="lifecycleRuntimeKtx = &quot;2.8.0&quot;"
         errorLine2="                      ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="8"
             column="23"/>
     </issue>
@@ -508,7 +476,7 @@
         errorLine1="lifecycleRuntimeKtx = &quot;2.8.0&quot;"
         errorLine2="                      ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="8"
             column="23"/>
     </issue>
@@ -524,7 +492,7 @@
         errorLine1="lifecycleRuntimeKtx = &quot;2.8.0&quot;"
         errorLine2="                      ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="8"
             column="23"/>
     </issue>
@@ -540,7 +508,7 @@
         errorLine1="lifecycleRuntimeKtx = &quot;2.8.0&quot;"
         errorLine2="                      ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="8"
             column="23"/>
     </issue>
@@ -556,7 +524,7 @@
         errorLine1="lifecycleRuntimeKtx = &quot;2.8.0&quot;"
         errorLine2="                      ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="8"
             column="23"/>
     </issue>
@@ -572,7 +540,7 @@
         errorLine1="lifecycleRuntimeKtx = &quot;2.8.0&quot;"
         errorLine2="                      ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="8"
             column="23"/>
     </issue>
@@ -588,7 +556,7 @@
         errorLine1="lifecycleRuntimeKtx = &quot;2.8.0&quot;"
         errorLine2="                      ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="8"
             column="23"/>
     </issue>
@@ -604,7 +572,7 @@
         errorLine1="lifecycleRuntimeKtx = &quot;2.8.0&quot;"
         errorLine2="                      ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="8"
             column="23"/>
     </issue>
@@ -620,7 +588,7 @@
         errorLine1="activityCompose = &quot;1.9.0&quot;"
         errorLine2="                  ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="9"
             column="19"/>
     </issue>
@@ -636,7 +604,7 @@
         errorLine1="activityCompose = &quot;1.9.0&quot;"
         errorLine2="                  ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="9"
             column="19"/>
     </issue>
@@ -652,7 +620,7 @@
         errorLine1="activityCompose = &quot;1.9.0&quot;"
         errorLine2="                  ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="9"
             column="19"/>
     </issue>
@@ -660,7 +628,7 @@
     <issue
         id="GradleDependency"
         severity="Warning"
-        message="A newer version of androidx.compose:compose-bom than 2024.05.00 is available: 2026.09.00"
+        message="A newer version of androidx.compose:compose-bom than 2024.05.00 is available: 2024.06.00"
         category="Correctness"
         priority="4"
         summary="Obsolete Gradle Dependency"
@@ -668,7 +636,7 @@
         errorLine1="composeBom = &quot;2024.05.00&quot;"
         errorLine2="             ~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="10"
             column="14"/>
     </issue>
@@ -684,7 +652,7 @@
         errorLine1="composeBom = &quot;2024.05.00&quot;"
         errorLine2="             ~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="10"
             column="14"/>
     </issue>
@@ -700,7 +668,7 @@
         errorLine1="composeBom = &quot;2024.05.00&quot;"
         errorLine2="             ~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="10"
             column="14"/>
     </issue>
@@ -716,7 +684,7 @@
         errorLine1="navigationCompose = &quot;2.7.7&quot;"
         errorLine2="                    ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="11"
             column="21"/>
     </issue>
@@ -732,7 +700,7 @@
         errorLine1="navigationCompose = &quot;2.7.7&quot;"
         errorLine2="                    ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="11"
             column="21"/>
     </issue>
@@ -748,7 +716,7 @@
         errorLine1="navigationCompose = &quot;2.7.7&quot;"
         errorLine2="                    ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="11"
             column="21"/>
     </issue>
@@ -764,7 +732,7 @@
         errorLine1="mockito = &quot;5.11.0&quot;"
         errorLine2="          ~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="12"
             column="11"/>
     </issue>
@@ -780,7 +748,7 @@
         errorLine1="mockito = &quot;5.11.0&quot;"
         errorLine2="          ~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="12"
             column="11"/>
     </issue>
@@ -796,7 +764,7 @@
         errorLine1="mockito = &quot;5.11.0&quot;"
         errorLine2="          ~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="12"
             column="11"/>
     </issue>
@@ -812,7 +780,7 @@
         errorLine1="androidx-core-splashscreen = { group = &quot;androidx.core&quot;, name = &quot;core-splashscreen&quot;, version = &quot;1.0.1&quot; }"
         errorLine2="                                                                                              ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="15"
             column="95"/>
     </issue>
@@ -828,7 +796,7 @@
         errorLine1="androidx-core-splashscreen = { group = &quot;androidx.core&quot;, name = &quot;core-splashscreen&quot;, version = &quot;1.0.1&quot; }"
         errorLine2="                                                                                              ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="15"
             column="95"/>
     </issue>
@@ -844,7 +812,7 @@
         errorLine1="androidx-core-splashscreen = { group = &quot;androidx.core&quot;, name = &quot;core-splashscreen&quot;, version = &quot;1.0.1&quot; }"
         errorLine2="                                                                                              ~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml"
             line="15"
             column="95"/>
     </issue>
@@ -860,7 +828,7 @@
         errorLine1="    val showBiometric = !isSetupMode &amp;&amp; securityManager.isBiometricEnabled.value &amp;&amp; canUseBiometric"
         errorLine2="                                                                           ~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\presentation\screens\security\SecurityLockScreen.kt"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\presentation\screens\security\SecurityLockScreen.kt"
             line="67"
             column="76"/>
     </issue>
@@ -878,7 +846,7 @@
         errorLine1="    &lt;string name=&quot;apps_blocked_multiple&quot;>%1$d connections blocked&lt;/string>"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="69"
             column="5"/>
     </issue>
@@ -896,7 +864,7 @@
         errorLine1="    &lt;uses-permission android:name=&quot;android.permission.QUERY_ALL_PACKAGES&quot; />"
         errorLine2="                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\AndroidManifest.xml"
             line="7"
             column="22"/>
     </issue>
@@ -912,7 +880,7 @@
         errorLine1="        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\engine\service\FirewallNotificationHelper.kt"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\engine\service\FirewallNotificationHelper.kt"
             line="41"
             column="13"/>
     </issue>
@@ -928,7 +896,7 @@
         errorLine1="                    if (Build.VERSION.SDK_INT >= 24) {"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\engine\service\FirewallVpnService.kt"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\engine\service\FirewallVpnService.kt"
             line="438"
             column="25"/>
     </issue>
@@ -944,7 +912,7 @@
         errorLine1="        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\engine\service\FirewallVpnService.kt"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\engine\service\FirewallVpnService.kt"
             line="510"
             column="13"/>
     </issue>
@@ -960,7 +928,7 @@
         errorLine1="    private var notificationHelper: FirewallNotificationHelper? = null"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\engine\service\FirewallEventManager.kt"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\engine\service\FirewallEventManager.kt"
             line="26"
             column="5"/>
     </issue>
@@ -978,8 +946,8 @@
         errorLine1="    kapt(&quot;androidx.room:room-compiler:$roomVersion&quot;)"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="142"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="147"
             column="5"/>
     </issue>
 
@@ -994,7 +962,7 @@
         errorLine1="    var stage by remember { mutableStateOf(0) }"
         errorLine2="                            ~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\presentation\screens\splash\AnimatedSplashScreen.kt"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\presentation\screens\splash\AnimatedSplashScreen.kt"
             line="53"
             column="29"/>
     </issue>
@@ -1010,7 +978,7 @@
         errorLine1="    &lt;string name=&quot;welcome_message&quot;>Welcome to AI Firewall&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="3"
             column="13"/>
     </issue>
@@ -1026,7 +994,7 @@
         errorLine1="    &lt;string name=&quot;firewall_status_enabled&quot;>Firewall Enabled&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="4"
             column="13"/>
     </issue>
@@ -1042,7 +1010,7 @@
         errorLine1="    &lt;string name=&quot;firewall_status_disabled&quot;>Firewall Disabled&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="5"
             column="13"/>
     </issue>
@@ -1058,7 +1026,7 @@
         errorLine1="    &lt;string name=&quot;status_active&quot;>Active&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="8"
             column="13"/>
     </issue>
@@ -1074,7 +1042,7 @@
         errorLine1="    &lt;string name=&quot;status_inactive&quot;>Inactive&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="9"
             column="13"/>
     </issue>
@@ -1090,7 +1058,7 @@
         errorLine1="    &lt;string name=&quot;status_starting&quot;>Starting&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="10"
             column="13"/>
     </issue>
@@ -1106,7 +1074,7 @@
         errorLine1="    &lt;string name=&quot;status_error&quot;>Error&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="11"
             column="13"/>
     </issue>
@@ -1122,7 +1090,7 @@
         errorLine1="    &lt;string name=&quot;network_traffic&quot;>Network Traffic Inspected&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="13"
             column="13"/>
     </issue>
@@ -1138,7 +1106,7 @@
         errorLine1="    &lt;string name=&quot;blocked_apps&quot;>Blocked Apps&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="20"
             column="13"/>
     </issue>
@@ -1154,7 +1122,7 @@
         errorLine1="    &lt;string name=&quot;allowed_apps&quot;>Allowed Apps&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="21"
             column="13"/>
     </issue>
@@ -1170,7 +1138,7 @@
         errorLine1="    &lt;string name=&quot;blocked_connections&quot;>Blocked Connections&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="22"
             column="13"/>
     </issue>
@@ -1186,7 +1154,7 @@
         errorLine1="    &lt;string name=&quot;tab_today&quot;>Today&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="26"
             column="13"/>
     </issue>
@@ -1202,7 +1170,7 @@
         errorLine1="    &lt;string name=&quot;tab_this_week&quot;>This Week&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="27"
             column="13"/>
     </issue>
@@ -1218,7 +1186,7 @@
         errorLine1="    &lt;string name=&quot;tab_this_month&quot;>This Month&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="28"
             column="13"/>
     </issue>
@@ -1234,7 +1202,7 @@
         errorLine1="    &lt;string name=&quot;top_data_consuming&quot;>Top Data-Consuming Applications&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="29"
             column="13"/>
     </issue>
@@ -1250,7 +1218,7 @@
         errorLine1="    &lt;string name=&quot;settings_app_lock&quot;>App Lock&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="37"
             column="13"/>
     </issue>
@@ -1266,7 +1234,7 @@
         errorLine1="    &lt;string name=&quot;settings_biometric&quot;>Biometric Authentication&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="38"
             column="13"/>
     </issue>
@@ -1282,7 +1250,7 @@
         errorLine1="    &lt;string name=&quot;settings_privacy&quot;>Privacy Policy&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="43"
             column="13"/>
     </issue>
@@ -1298,7 +1266,7 @@
         errorLine1="    &lt;string name=&quot;blocked&quot;>Blocked&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="52"
             column="13"/>
     </issue>
@@ -1314,7 +1282,7 @@
         errorLine1="    &lt;string name=&quot;not_configured&quot;>Not Configured&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="53"
             column="13"/>
     </issue>
@@ -1330,7 +1298,7 @@
         errorLine1="    &lt;string name=&quot;rule_saved&quot;>Network rule saved&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="55"
             column="13"/>
     </issue>
@@ -1346,7 +1314,7 @@
         errorLine1="    &lt;string name=&quot;title_themes&quot;>Themes&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="56"
             column="13"/>
     </issue>
@@ -1362,7 +1330,7 @@
         errorLine1="    &lt;string name=&quot;theme_cyber_blue&quot;>Cyber Blue&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="57"
             column="13"/>
     </issue>
@@ -1378,7 +1346,7 @@
         errorLine1="    &lt;string name=&quot;theme_neon_green&quot;>Neon Green&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="58"
             column="13"/>
     </issue>
@@ -1394,7 +1362,7 @@
         errorLine1="    &lt;string name=&quot;theme_crimson_red&quot;>Crimson Red&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="59"
             column="13"/>
     </issue>
@@ -1410,7 +1378,7 @@
         errorLine1="    &lt;string name=&quot;save&quot;>Save&lt;/string>"
         errorLine2="            ~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="72"
             column="13"/>
     </issue>
@@ -1426,7 +1394,7 @@
         errorLine1="    &lt;string name=&quot;download&quot;>Download&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="79"
             column="13"/>
     </issue>
@@ -1442,7 +1410,7 @@
         errorLine1="    &lt;string name=&quot;upload&quot;>Upload&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="80"
             column="13"/>
     </issue>
@@ -1460,7 +1428,7 @@
         errorLine1="    &lt;string name=&quot;firewall_starting&quot;>جارٍ التشغيل...&lt;/string>"
         errorLine2="                                     ~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values-ar\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values-ar\strings.xml"
             line="83"
             column="38"/>
     </issue>
@@ -1478,7 +1446,7 @@
         errorLine1="    &lt;string name=&quot;firewall_starting&quot;>Firewall starting...&lt;/string>"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml"
             line="84"
             column="38"/>
     </issue>
@@ -1494,8 +1462,8 @@
         errorLine1="    implementation(&quot;androidx.core:core-ktx:1.13.1&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="107"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="112"
             column="20"/>
     </issue>
 
@@ -1510,8 +1478,8 @@
         errorLine1="    implementation(&quot;androidx.core:core-splashscreen:1.0.1&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="108"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="113"
             column="20"/>
     </issue>
 
@@ -1526,8 +1494,8 @@
         errorLine1="    implementation(&quot;androidx.lifecycle:lifecycle-runtime-ktx:2.8.2&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="109"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="114"
             column="20"/>
     </issue>
 
@@ -1542,8 +1510,8 @@
         errorLine1="    implementation(&quot;androidx.activity:activity-compose:1.9.0&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="110"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="115"
             column="20"/>
     </issue>
 
@@ -1558,8 +1526,8 @@
         errorLine1="    implementation(&quot;androidx.appcompat:appcompat:1.6.1&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="112"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="117"
             column="20"/>
     </issue>
 
@@ -1574,8 +1542,8 @@
         errorLine1="    implementation(&quot;com.google.android.material:material:1.12.0&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="113"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="118"
             column="20"/>
     </issue>
 
@@ -1590,8 +1558,8 @@
         errorLine1="    implementation(platform(&quot;androidx.compose:compose-bom:2024.06.00&quot;))"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="116"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="121"
             column="20"/>
     </issue>
 
@@ -1606,8 +1574,8 @@
         errorLine1="    implementation(&quot;androidx.compose.ui:ui&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="117"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="122"
             column="20"/>
     </issue>
 
@@ -1622,8 +1590,8 @@
         errorLine1="    implementation(&quot;androidx.compose.ui:ui-graphics&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="118"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="123"
             column="20"/>
     </issue>
 
@@ -1638,8 +1606,8 @@
         errorLine1="    implementation(&quot;androidx.compose.ui:ui-tooling-preview&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="119"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="124"
             column="20"/>
     </issue>
 
@@ -1654,8 +1622,8 @@
         errorLine1="    implementation(&quot;androidx.compose.material3:material3&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="120"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="125"
             column="20"/>
     </issue>
 
@@ -1670,8 +1638,8 @@
         errorLine1="    implementation(&quot;androidx.navigation:navigation-compose:2.7.7&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="123"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="128"
             column="20"/>
     </issue>
 
@@ -1686,8 +1654,8 @@
         errorLine1="    implementation(&quot;androidx.datastore:datastore-preferences:1.1.1&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="126"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="131"
             column="20"/>
     </issue>
 
@@ -1702,8 +1670,8 @@
         errorLine1="    implementation(&quot;androidx.biometric:biometric:1.2.0-alpha05&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="129"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="134"
             column="20"/>
     </issue>
 
@@ -1718,8 +1686,8 @@
         errorLine1="    implementation(&quot;androidx.security:security-crypto:1.1.0-alpha06&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="130"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="135"
             column="20"/>
     </issue>
 
@@ -1734,8 +1702,8 @@
         errorLine1="    implementation(&quot;org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="133"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="138"
             column="20"/>
     </issue>
 
@@ -1750,8 +1718,8 @@
         errorLine1="    implementation(&quot;com.google.code.gson:gson:2.11.0&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="136"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="141"
             column="20"/>
     </issue>
 
@@ -1766,8 +1734,8 @@
         errorLine1="    implementation(&quot;androidx.room:room-runtime:$roomVersion&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="140"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="145"
             column="20"/>
     </issue>
 
@@ -1782,8 +1750,8 @@
         errorLine1="    implementation(&quot;androidx.room:room-ktx:$roomVersion&quot;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="141"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="146"
             column="20"/>
     </issue>
 
@@ -1798,8 +1766,8 @@
         errorLine1="    kapt(&quot;androidx.room:room-compiler:$roomVersion&quot;)"
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="142"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="147"
             column="10"/>
     </issue>
 
@@ -1814,8 +1782,8 @@
         errorLine1="    testImplementation(&quot;junit:junit:4.13.2&quot;)"
         errorLine2="                       ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="144"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="149"
             column="24"/>
     </issue>
 
@@ -1830,8 +1798,8 @@
         errorLine1="    testImplementation(&quot;org.mockito:mockito-core:5.12.0&quot;)"
         errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="145"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="150"
             column="24"/>
     </issue>
 
@@ -1846,8 +1814,8 @@
         errorLine1="    androidTestImplementation(&quot;androidx.test.ext:junit:1.2.0&quot;)"
         errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="146"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="151"
             column="31"/>
     </issue>
 
@@ -1862,8 +1830,8 @@
         errorLine1="    androidTestImplementation(&quot;androidx.test.espresso:espresso-core:3.6.0&quot;)"
         errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="147"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="152"
             column="31"/>
     </issue>
 
@@ -1878,8 +1846,8 @@
         errorLine1="    androidTestImplementation(platform(&quot;androidx.compose:compose-bom:2024.06.00&quot;))"
         errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="148"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="153"
             column="31"/>
     </issue>
 
@@ -1894,8 +1862,8 @@
         errorLine1="    androidTestImplementation(&quot;androidx.compose.ui:ui-test-junit4&quot;)"
         errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="149"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="154"
             column="31"/>
     </issue>
 
@@ -1910,8 +1878,8 @@
         errorLine1="    debugImplementation(&quot;androidx.compose.ui:ui-tooling&quot;)"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="150"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="155"
             column="25"/>
     </issue>
 
@@ -1926,8 +1894,8 @@
         errorLine1="    debugImplementation(&quot;androidx.compose.ui:ui-test-manifest&quot;)"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts"
-            line="151"
+            file="C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts"
+            line="156"
             column="25"/>
     </issue>
 

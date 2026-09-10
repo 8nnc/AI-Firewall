@@ -162,17 +162,17 @@
             priority="0">
             <range
                 file="${:app*projectDir}/build.gradle.kts"
-                startOffset="3692"
-                endOffset="3723"/>
+                startOffset="3893"
+                endOffset="3924"/>
         </fix-replace>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="107"
+            line="112"
             column="20"
-            startOffset="3692"
-            endLine="107"
+            startOffset="3893"
+            endLine="112"
             endColumn="51"
-            endOffset="3723"/>
+            endOffset="3924"/>
     </incident>
 
     <incident
@@ -187,17 +187,17 @@
             priority="0">
             <range
                 file="${:app*projectDir}/build.gradle.kts"
-                startOffset="3744"
-                endOffset="3783"/>
+                startOffset="3945"
+                endOffset="3984"/>
         </fix-replace>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="108"
+            line="113"
             column="20"
-            startOffset="3744"
-            endLine="108"
+            startOffset="3945"
+            endLine="113"
             endColumn="59"
-            endOffset="3783"/>
+            endOffset="3984"/>
     </incident>
 
     <incident
@@ -217,7 +217,7 @@
                     replacement="lifecycleRuntimeKtxVersion = &quot;2.8.2&quot;&#xA;"
                     priority="0">
                     <range
-                        file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                        file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                         startOffset="207"
                         endOffset="207"/>
                 </fix-replace>
@@ -229,7 +229,7 @@
                     replacement="androidx-lifecycle-runtime-ktx-v282 = { module = &quot;androidx.lifecycle:lifecycle-runtime-ktx&quot;, version.ref = &quot;lifecycleRuntimeKtxVersion&quot; }&#xA;"
                     priority="0">
                     <range
-                        file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                        file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                         startOffset="371"
                         endOffset="371"/>
                 </fix-replace>
@@ -241,8 +241,8 @@
                     priority="0">
                     <range
                         file="${:app*projectDir}/build.gradle.kts"
-                        startOffset="3804"
-                        endOffset="3852"/>
+                        startOffset="4005"
+                        endOffset="4053"/>
                 </fix-replace>
             </fix-composite>
             <fix-replace
@@ -251,18 +251,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="3804"
-                    endOffset="3852"/>
+                    startOffset="4005"
+                    endOffset="4053"/>
             </fix-replace>
         </fix-alternatives>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="109"
+            line="114"
             column="20"
-            startOffset="3804"
-            endLine="109"
+            startOffset="4005"
+            endLine="114"
             endColumn="68"
-            endOffset="3852"/>
+            endOffset="4053"/>
     </incident>
 
     <incident
@@ -277,17 +277,17 @@
             priority="0">
             <range
                 file="${:app*projectDir}/build.gradle.kts"
-                startOffset="3873"
-                endOffset="3915"/>
+                startOffset="4074"
+                endOffset="4116"/>
         </fix-replace>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="110"
+            line="115"
             column="20"
-            startOffset="3873"
-            endLine="110"
+            startOffset="4074"
+            endLine="115"
             endColumn="62"
-            endOffset="3915"/>
+            endOffset="4116"/>
     </incident>
 
     <incident
@@ -304,7 +304,7 @@
                 replacement="appcompat = &quot;1.6.1&quot;&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="25"
                     endOffset="25"/>
             </fix-replace>
@@ -315,7 +315,7 @@
                 replacement="androidx-appcompat = { module = &quot;androidx.appcompat:appcompat&quot;, version.ref = &quot;appcompat&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="267"
                     endOffset="267"/>
             </fix-replace>
@@ -326,18 +326,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="3941"
-                    endOffset="3977"/>
+                    startOffset="4142"
+                    endOffset="4178"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="112"
+            line="117"
             column="20"
-            startOffset="3941"
-            endLine="112"
+            startOffset="4142"
+            endLine="117"
             endColumn="56"
-            endOffset="3977"/>
+            endOffset="4178"/>
     </incident>
 
     <incident
@@ -354,7 +354,7 @@
                 replacement="material = &quot;1.12.0&quot;&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="207"
                     endOffset="207"/>
             </fix-replace>
@@ -365,7 +365,7 @@
                 replacement="material = { module = &quot;com.google.android.material:material&quot;, version.ref = &quot;material&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="2193"
                     endOffset="2193"/>
             </fix-replace>
@@ -376,18 +376,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="3998"
-                    endOffset="4043"/>
+                    startOffset="4199"
+                    endOffset="4244"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="113"
+            line="118"
             column="20"
-            startOffset="3998"
-            endLine="113"
+            startOffset="4199"
+            endLine="118"
             endColumn="65"
-            endOffset="4043"/>
+            endOffset="4244"/>
     </incident>
 
     <incident
@@ -407,7 +407,7 @@
                     replacement="composeBomVersion = &quot;2024.06.00&quot;&#xA;"
                     priority="0">
                     <range
-                        file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                        file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                         startOffset="25"
                         endOffset="25"/>
                 </fix-replace>
@@ -419,7 +419,7 @@
                     replacement="androidx-compose-bom-v20240600 = { module = &quot;androidx.compose:compose-bom&quot;, version.ref = &quot;composeBomVersion&quot; }&#xA;"
                     priority="0">
                     <range
-                        file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                        file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                         startOffset="267"
                         endOffset="267"/>
                 </fix-replace>
@@ -431,8 +431,8 @@
                     priority="0">
                     <range
                         file="${:app*projectDir}/build.gradle.kts"
-                        startOffset="4084"
-                        endOffset="4135"/>
+                        startOffset="4285"
+                        endOffset="4336"/>
                 </fix-replace>
             </fix-composite>
             <fix-replace
@@ -441,18 +441,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="4084"
-                    endOffset="4135"/>
+                    startOffset="4285"
+                    endOffset="4336"/>
             </fix-replace>
         </fix-alternatives>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="116"
+            line="121"
             column="20"
-            startOffset="4084"
-            endLine="116"
+            startOffset="4285"
+            endLine="121"
             endColumn="71"
-            endOffset="4135"/>
+            endOffset="4336"/>
     </incident>
 
     <incident
@@ -469,7 +469,7 @@
                 replacement="ui = { module = &quot;androidx.compose.ui:ui&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="2282"
                     endOffset="2282"/>
             </fix-replace>
@@ -480,18 +480,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="4156"
-                    endOffset="4180"/>
+                    startOffset="4357"
+                    endOffset="4381"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="117"
+            line="122"
             column="20"
-            startOffset="4156"
-            endLine="117"
+            startOffset="4357"
+            endLine="122"
             endColumn="44"
-            endOffset="4180"/>
+            endOffset="4381"/>
     </incident>
 
     <incident
@@ -508,7 +508,7 @@
                 replacement="ui-graphics = { module = &quot;androidx.compose.ui:ui-graphics&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="2282"
                     endOffset="2282"/>
             </fix-replace>
@@ -519,18 +519,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="4201"
-                    endOffset="4234"/>
+                    startOffset="4402"
+                    endOffset="4435"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="118"
+            line="123"
             column="20"
-            startOffset="4201"
-            endLine="118"
+            startOffset="4402"
+            endLine="123"
             endColumn="53"
-            endOffset="4234"/>
+            endOffset="4435"/>
     </incident>
 
     <incident
@@ -547,7 +547,7 @@
                 replacement="ui-tooling-preview = { module = &quot;androidx.compose.ui:ui-tooling-preview&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="2282"
                     endOffset="2282"/>
             </fix-replace>
@@ -558,18 +558,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="4255"
-                    endOffset="4295"/>
+                    startOffset="4456"
+                    endOffset="4496"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="119"
+            line="124"
             column="20"
-            startOffset="4255"
-            endLine="119"
+            startOffset="4456"
+            endLine="124"
             endColumn="60"
-            endOffset="4295"/>
+            endOffset="4496"/>
     </incident>
 
     <incident
@@ -586,7 +586,7 @@
                 replacement="material3 = { module = &quot;androidx.compose.material3:material3&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="2193"
                     endOffset="2193"/>
             </fix-replace>
@@ -597,18 +597,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="4316"
-                    endOffset="4354"/>
+                    startOffset="4517"
+                    endOffset="4555"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="120"
+            line="125"
             column="20"
-            startOffset="4316"
-            endLine="120"
+            startOffset="4517"
+            endLine="125"
             endColumn="58"
-            endOffset="4354"/>
+            endOffset="4555"/>
     </incident>
 
     <incident
@@ -623,17 +623,17 @@
             priority="0">
             <range
                 file="${:app*projectDir}/build.gradle.kts"
-                startOffset="4398"
-                endOffset="4444"/>
+                startOffset="4599"
+                endOffset="4645"/>
         </fix-replace>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="123"
+            line="128"
             column="20"
-            startOffset="4398"
-            endLine="123"
+            startOffset="4599"
+            endLine="128"
             endColumn="66"
-            endOffset="4444"/>
+            endOffset="4645"/>
     </incident>
 
     <incident
@@ -650,7 +650,7 @@
                 replacement="datastorePreferences = &quot;1.1.1&quot;&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="25"
                     endOffset="25"/>
             </fix-replace>
@@ -661,7 +661,7 @@
                 replacement="androidx-datastore-preferences = { module = &quot;androidx.datastore:datastore-preferences&quot;, version.ref = &quot;datastorePreferences&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="371"
                     endOffset="371"/>
             </fix-replace>
@@ -672,18 +672,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="4501"
-                    endOffset="4549"/>
+                    startOffset="4702"
+                    endOffset="4750"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="126"
+            line="131"
             column="20"
-            startOffset="4501"
-            endLine="126"
+            startOffset="4702"
+            endLine="131"
             endColumn="68"
-            endOffset="4549"/>
+            endOffset="4750"/>
     </incident>
 
     <incident
@@ -700,7 +700,7 @@
                 replacement="biometric = &quot;1.2.0-alpha05&quot;&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="25"
                     endOffset="25"/>
             </fix-replace>
@@ -711,7 +711,7 @@
                 replacement="androidx-biometric = { module = &quot;androidx.biometric:biometric&quot;, version.ref = &quot;biometric&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="267"
                     endOffset="267"/>
             </fix-replace>
@@ -722,18 +722,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="4604"
-                    endOffset="4648"/>
+                    startOffset="4805"
+                    endOffset="4849"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="129"
+            line="134"
             column="20"
-            startOffset="4604"
-            endLine="129"
+            startOffset="4805"
+            endLine="134"
             endColumn="64"
-            endOffset="4648"/>
+            endOffset="4849"/>
     </incident>
 
     <incident
@@ -750,7 +750,7 @@
                 replacement="securityCrypto = &quot;1.1.0-alpha06&quot;&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="254"
                     endOffset="254"/>
             </fix-replace>
@@ -761,7 +761,7 @@
                 replacement="androidx-security-crypto = { module = &quot;androidx.security:security-crypto&quot;, version.ref = &quot;securityCrypto&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="572"
                     endOffset="572"/>
             </fix-replace>
@@ -772,18 +772,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="4669"
-                    endOffset="4718"/>
+                    startOffset="4870"
+                    endOffset="4919"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="130"
+            line="135"
             column="20"
-            startOffset="4669"
-            endLine="130"
+            startOffset="4870"
+            endLine="135"
             endColumn="69"
-            endOffset="4718"/>
+            endOffset="4919"/>
     </incident>
 
     <incident
@@ -800,7 +800,7 @@
                 replacement="kotlinxCoroutinesAndroid = &quot;1.8.1&quot;&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="125"
                     endOffset="125"/>
             </fix-replace>
@@ -811,7 +811,7 @@
                 replacement="kotlinx-coroutines-android = { module = &quot;org.jetbrains.kotlinx:kotlinx-coroutines-android&quot;, version.ref = &quot;kotlinxCoroutinesAndroid&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="2193"
                     endOffset="2193"/>
             </fix-replace>
@@ -822,18 +822,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="4762"
-                    endOffset="4818"/>
+                    startOffset="4963"
+                    endOffset="5019"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="133"
+            line="138"
             column="20"
-            startOffset="4762"
-            endLine="133"
+            startOffset="4963"
+            endLine="138"
             endColumn="76"
-            endOffset="4818"/>
+            endOffset="5019"/>
     </incident>
 
     <incident
@@ -850,7 +850,7 @@
                 replacement="gson = &quot;2.11.0&quot;&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="25"
                     endOffset="25"/>
             </fix-replace>
@@ -861,7 +861,7 @@
                 replacement="gson = { module = &quot;com.google.code.gson:gson&quot;, version.ref = &quot;gson&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="572"
                     endOffset="572"/>
             </fix-replace>
@@ -872,18 +872,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="4870"
-                    endOffset="4904"/>
+                    startOffset="5071"
+                    endOffset="5105"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="136"
+            line="141"
             column="20"
-            startOffset="4870"
-            endLine="136"
+            startOffset="5071"
+            endLine="141"
             endColumn="54"
-            endOffset="4904"/>
+            endOffset="5105"/>
     </incident>
 
     <incident
@@ -900,7 +900,7 @@
                 replacement="roomVersion = &quot;2.6.1&quot;&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="254"
                     endOffset="254"/>
             </fix-replace>
@@ -911,7 +911,7 @@
                 replacement="androidx-room-runtime = { module = &quot;androidx.room:room-runtime&quot;, version.ref = &quot;roomVersion&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="572"
                     endOffset="572"/>
             </fix-replace>
@@ -922,18 +922,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="4977"
-                    endOffset="5018"/>
+                    startOffset="5178"
+                    endOffset="5219"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="140"
+            line="145"
             column="20"
-            startOffset="4977"
-            endLine="140"
+            startOffset="5178"
+            endLine="145"
             endColumn="61"
-            endOffset="5018"/>
+            endOffset="5219"/>
     </incident>
 
     <incident
@@ -950,7 +950,7 @@
                 replacement="roomVersion = &quot;2.6.1&quot;&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="254"
                     endOffset="254"/>
             </fix-replace>
@@ -961,7 +961,7 @@
                 replacement="androidx-room-ktx = { module = &quot;androidx.room:room-ktx&quot;, version.ref = &quot;roomVersion&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="572"
                     endOffset="572"/>
             </fix-replace>
@@ -972,18 +972,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="5039"
-                    endOffset="5076"/>
+                    startOffset="5240"
+                    endOffset="5277"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="141"
+            line="146"
             column="20"
-            startOffset="5039"
-            endLine="141"
+            startOffset="5240"
+            endLine="146"
             endColumn="57"
-            endOffset="5076"/>
+            endOffset="5277"/>
     </incident>
 
     <incident
@@ -1000,7 +1000,7 @@
                 replacement="roomVersion = &quot;2.6.1&quot;&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="254"
                     endOffset="254"/>
             </fix-replace>
@@ -1011,7 +1011,7 @@
                 replacement="androidx-room-compiler = { module = &quot;androidx.room:room-compiler&quot;, version.ref = &quot;roomVersion&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="572"
                     endOffset="572"/>
             </fix-replace>
@@ -1022,18 +1022,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="5087"
-                    endOffset="5129"/>
+                    startOffset="5288"
+                    endOffset="5330"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="142"
+            line="147"
             column="10"
-            startOffset="5087"
-            endLine="142"
+            startOffset="5288"
+            endLine="147"
             endColumn="52"
-            endOffset="5129"/>
+            endOffset="5330"/>
     </incident>
 
     <incident
@@ -1045,12 +1045,12 @@
             url="https://developer.android.com/studio/build/migrate-to-ksp"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="142"
+            line="147"
             column="5"
-            startOffset="5082"
-            endLine="142"
+            startOffset="5283"
+            endLine="147"
             endColumn="53"
-            endOffset="5130"/>
+            endOffset="5331"/>
     </incident>
 
     <incident
@@ -1065,17 +1065,17 @@
             priority="0">
             <range
                 file="${:app*projectDir}/build.gradle.kts"
-                startOffset="5155"
-                endOffset="5175"/>
+                startOffset="5356"
+                endOffset="5376"/>
         </fix-replace>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="144"
+            line="149"
             column="24"
-            startOffset="5155"
-            endLine="144"
+            startOffset="5356"
+            endLine="149"
             endColumn="44"
-            endOffset="5175"/>
+            endOffset="5376"/>
     </incident>
 
     <incident
@@ -1095,7 +1095,7 @@
                     replacement="mockitoCore = &quot;5.12.0&quot;&#xA;"
                     priority="0">
                     <range
-                        file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                        file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                         startOffset="207"
                         endOffset="207"/>
                 </fix-replace>
@@ -1107,7 +1107,7 @@
                     replacement="mockito-core-v5120 = { module = &quot;org.mockito:mockito-core&quot;, version.ref = &quot;mockitoCore&quot; }&#xA;"
                     priority="0">
                     <range
-                        file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                        file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                         startOffset="2282"
                         endOffset="2282"/>
                 </fix-replace>
@@ -1119,8 +1119,8 @@
                     priority="0">
                     <range
                         file="${:app*projectDir}/build.gradle.kts"
-                        startOffset="5200"
-                        endOffset="5233"/>
+                        startOffset="5401"
+                        endOffset="5434"/>
                 </fix-replace>
             </fix-composite>
             <fix-replace
@@ -1129,18 +1129,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="5200"
-                    endOffset="5233"/>
+                    startOffset="5401"
+                    endOffset="5434"/>
             </fix-replace>
         </fix-alternatives>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="145"
+            line="150"
             column="24"
-            startOffset="5200"
-            endLine="145"
+            startOffset="5401"
+            endLine="150"
             endColumn="57"
-            endOffset="5233"/>
+            endOffset="5434"/>
     </incident>
 
     <incident
@@ -1160,7 +1160,7 @@
                     replacement="androidxJunit = &quot;1.2.0&quot;&#xA;"
                     priority="0">
                     <range
-                        file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                        file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                         startOffset="25"
                         endOffset="25"/>
                 </fix-replace>
@@ -1172,7 +1172,7 @@
                     replacement="androidx-junit-v120 = { module = &quot;androidx.test.ext:junit&quot;, version.ref = &quot;androidxJunit&quot; }&#xA;"
                     priority="0">
                     <range
-                        file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                        file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                         startOffset="371"
                         endOffset="371"/>
                 </fix-replace>
@@ -1184,8 +1184,8 @@
                     priority="0">
                     <range
                         file="${:app*projectDir}/build.gradle.kts"
-                        startOffset="5265"
-                        endOffset="5296"/>
+                        startOffset="5466"
+                        endOffset="5497"/>
                 </fix-replace>
             </fix-composite>
             <fix-replace
@@ -1194,18 +1194,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="5265"
-                    endOffset="5296"/>
+                    startOffset="5466"
+                    endOffset="5497"/>
             </fix-replace>
         </fix-alternatives>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="146"
+            line="151"
             column="31"
-            startOffset="5265"
-            endLine="146"
+            startOffset="5466"
+            endLine="151"
             endColumn="62"
-            endOffset="5296"/>
+            endOffset="5497"/>
     </incident>
 
     <incident
@@ -1225,7 +1225,7 @@
                     replacement="espressoCoreVersion = &quot;3.6.0&quot;&#xA;"
                     priority="0">
                     <range
-                        file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                        file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                         startOffset="25"
                         endOffset="25"/>
                 </fix-replace>
@@ -1237,7 +1237,7 @@
                     replacement="androidx-espresso-core-v360 = { module = &quot;androidx.test.espresso:espresso-core&quot;, version.ref = &quot;espressoCoreVersion&quot; }&#xA;"
                     priority="0">
                     <range
-                        file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                        file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                         startOffset="371"
                         endOffset="371"/>
                 </fix-replace>
@@ -1249,8 +1249,8 @@
                     priority="0">
                     <range
                         file="${:app*projectDir}/build.gradle.kts"
-                        startOffset="5328"
-                        endOffset="5372"/>
+                        startOffset="5529"
+                        endOffset="5573"/>
                 </fix-replace>
             </fix-composite>
             <fix-replace
@@ -1259,18 +1259,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="5328"
-                    endOffset="5372"/>
+                    startOffset="5529"
+                    endOffset="5573"/>
             </fix-replace>
         </fix-alternatives>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="147"
+            line="152"
             column="31"
-            startOffset="5328"
-            endLine="147"
+            startOffset="5529"
+            endLine="152"
             endColumn="75"
-            endOffset="5372"/>
+            endOffset="5573"/>
     </incident>
 
     <incident
@@ -1290,7 +1290,7 @@
                     replacement="androidxComposeBom = &quot;2024.06.00&quot;&#xA;"
                     priority="0">
                     <range
-                        file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                        file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                         startOffset="25"
                         endOffset="25"/>
                 </fix-replace>
@@ -1302,7 +1302,7 @@
                     replacement="compose-bom-v20240600 = { module = &quot;androidx.compose:compose-bom&quot;, version.ref = &quot;androidxComposeBom&quot; }&#xA;"
                     priority="0">
                     <range
-                        file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                        file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                         startOffset="572"
                         endOffset="572"/>
                 </fix-replace>
@@ -1314,8 +1314,8 @@
                     priority="0">
                     <range
                         file="${:app*projectDir}/build.gradle.kts"
-                        startOffset="5404"
-                        endOffset="5455"/>
+                        startOffset="5605"
+                        endOffset="5656"/>
                 </fix-replace>
             </fix-composite>
             <fix-replace
@@ -1324,18 +1324,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="5404"
-                    endOffset="5455"/>
+                    startOffset="5605"
+                    endOffset="5656"/>
             </fix-replace>
         </fix-alternatives>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="148"
+            line="153"
             column="31"
-            startOffset="5404"
-            endLine="148"
+            startOffset="5605"
+            endLine="153"
             endColumn="82"
-            endOffset="5455"/>
+            endOffset="5656"/>
     </incident>
 
     <incident
@@ -1352,7 +1352,7 @@
                 replacement="ui-test-junit4 = { module = &quot;androidx.compose.ui:ui-test-junit4&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="2282"
                     endOffset="2282"/>
             </fix-replace>
@@ -1363,18 +1363,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="5487"
-                    endOffset="5523"/>
+                    startOffset="5688"
+                    endOffset="5724"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="149"
+            line="154"
             column="31"
-            startOffset="5487"
-            endLine="149"
+            startOffset="5688"
+            endLine="154"
             endColumn="67"
-            endOffset="5523"/>
+            endOffset="5724"/>
     </incident>
 
     <incident
@@ -1391,7 +1391,7 @@
                 replacement="ui-tooling = { module = &quot;androidx.compose.ui:ui-tooling&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="2282"
                     endOffset="2282"/>
             </fix-replace>
@@ -1402,18 +1402,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="5549"
-                    endOffset="5581"/>
+                    startOffset="5750"
+                    endOffset="5782"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="150"
+            line="155"
             column="25"
-            startOffset="5549"
-            endLine="150"
+            startOffset="5750"
+            endLine="155"
             endColumn="57"
-            endOffset="5581"/>
+            endOffset="5782"/>
     </incident>
 
     <incident
@@ -1430,7 +1430,7 @@
                 replacement="ui-test-manifest = { module = &quot;androidx.compose.ui:ui-test-manifest&quot; }&#xA;"
                 priority="0">
                 <range
-                    file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+                    file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
                     startOffset="2282"
                     endOffset="2282"/>
             </fix-replace>
@@ -1441,18 +1441,18 @@
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="5607"
-                    endOffset="5645"/>
+                    startOffset="5808"
+                    endOffset="5846"/>
             </fix-replace>
         </fix-composite>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="151"
+            line="156"
             column="25"
-            startOffset="5607"
-            endLine="151"
+            startOffset="5808"
+            endLine="156"
             endColumn="63"
-            endOffset="5645"/>
+            endOffset="5846"/>
     </incident>
 
     <incident
@@ -1466,7 +1466,7 @@
             replacement="1.2.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="15"
             column="95"
             startOffset="361"
@@ -1486,7 +1486,7 @@
             replacement="1.19.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="4"
             column="11"
             startOffset="53"
@@ -1506,7 +1506,7 @@
             replacement="1.3.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="6"
             column="16"
             startOffset="94"
@@ -1526,7 +1526,7 @@
             replacement="3.7.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="7"
             column="16"
             startOffset="117"
@@ -1546,7 +1546,7 @@
             replacement="2.11.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="8"
             column="23"
             startOffset="147"
@@ -1566,7 +1566,7 @@
             replacement="2.11.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="8"
             column="23"
             startOffset="147"
@@ -1586,7 +1586,7 @@
             replacement="2.11.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="8"
             column="23"
             startOffset="147"
@@ -1606,7 +1606,7 @@
             replacement="1.13.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="9"
             column="19"
             startOffset="173"
@@ -1618,15 +1618,15 @@
     <incident
         id="GradleDependency"
         severity="warning"
-        message="A newer version of androidx.compose:compose-bom than 2024.05.00 is available: 2026.09.00">
+        message="A newer version of androidx.compose:compose-bom than 2024.05.00 is available: 2024.06.00">
         <fix-replace
-            description="Change to 2026.09.00"
+            description="Change to 2024.06.00"
             family="Update versions"
             oldString="2024.05.00"
-            replacement="2026.09.00"
+            replacement="2024.06.00"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="10"
             column="14"
             startOffset="194"
@@ -1646,7 +1646,7 @@
             replacement="2.10.1"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="11"
             column="21"
             startOffset="227"
@@ -1666,7 +1666,7 @@
             replacement="5.12.0"
             priority="0"/>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="12"
             column="11"
             startOffset="245"
@@ -1696,7 +1696,7 @@
                 priority="0"/>
         </fix-alternatives>
         <location
-            file="$HOME/Desktop/ff/gradle/libs.versions.toml"
+            file="$HOME/Desktop/AI-Firewall/gradle/libs.versions.toml"
             line="2"
             column="7"
             startOffset="17"
@@ -1717,12 +1717,12 @@
             priority="0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="107"
+            line="112"
             column="20"
-            startOffset="3692"
-            endLine="107"
+            startOffset="3893"
+            endLine="112"
             endColumn="51"
-            endOffset="3723"/>
+            endOffset="3924"/>
     </incident>
 
     <incident
@@ -1737,12 +1737,12 @@
             priority="0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="108"
+            line="113"
             column="20"
-            startOffset="3744"
-            endLine="108"
+            startOffset="3945"
+            endLine="113"
             endColumn="59"
-            endOffset="3783"/>
+            endOffset="3984"/>
     </incident>
 
     <incident
@@ -1757,12 +1757,12 @@
             priority="0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="109"
+            line="114"
             column="20"
-            startOffset="3804"
-            endLine="109"
+            startOffset="4005"
+            endLine="114"
             endColumn="68"
-            endOffset="3852"/>
+            endOffset="4053"/>
     </incident>
 
     <incident
@@ -1777,12 +1777,12 @@
             priority="0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="110"
+            line="115"
             column="20"
-            startOffset="3873"
-            endLine="110"
+            startOffset="4074"
+            endLine="115"
             endColumn="62"
-            endOffset="3915"/>
+            endOffset="4116"/>
     </incident>
 
     <incident
@@ -1797,12 +1797,12 @@
             priority="0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="112"
+            line="117"
             column="20"
-            startOffset="3941"
-            endLine="112"
+            startOffset="4142"
+            endLine="117"
             endColumn="56"
-            endOffset="3977"/>
+            endOffset="4178"/>
     </incident>
 
     <incident
@@ -1817,32 +1817,12 @@
             priority="0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="113"
+            line="118"
             column="20"
-            startOffset="3998"
-            endLine="113"
+            startOffset="4199"
+            endLine="118"
             endColumn="65"
-            endOffset="4043"/>
-    </incident>
-
-    <incident
-        id="GradleDependency"
-        severity="warning"
-        message="A newer version of androidx.compose:compose-bom than 2024.06.00 is available: 2026.09.00">
-        <fix-replace
-            description="Change to 2026.09.00"
-            family="Update versions"
-            oldString="2024.06.00"
-            replacement="2026.09.00"
-            priority="0"/>
-        <location
-            file="${:app*projectDir}/build.gradle.kts"
-            line="116"
-            column="20"
-            startOffset="4084"
-            endLine="116"
-            endColumn="71"
-            endOffset="4135"/>
+            endOffset="4244"/>
     </incident>
 
     <incident
@@ -1857,12 +1837,12 @@
             priority="0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="123"
+            line="128"
             column="20"
-            startOffset="4398"
-            endLine="123"
+            startOffset="4599"
+            endLine="128"
             endColumn="66"
-            endOffset="4444"/>
+            endOffset="4645"/>
     </incident>
 
     <incident
@@ -1877,12 +1857,12 @@
             priority="0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="126"
+            line="131"
             column="20"
-            startOffset="4501"
-            endLine="126"
+            startOffset="4702"
+            endLine="131"
             endColumn="68"
-            endOffset="4549"/>
+            endOffset="4750"/>
     </incident>
 
     <incident
@@ -1897,12 +1877,12 @@
             priority="0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="130"
+            line="135"
             column="20"
-            startOffset="4669"
-            endLine="130"
+            startOffset="4870"
+            endLine="135"
             endColumn="69"
-            endOffset="4718"/>
+            endOffset="4919"/>
     </incident>
 
     <incident
@@ -1911,12 +1891,12 @@
         message="A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.8.5">
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="140"
+            line="145"
             column="20"
-            startOffset="4977"
-            endLine="140"
+            startOffset="5178"
+            endLine="145"
             endColumn="61"
-            endOffset="5018"/>
+            endOffset="5219"/>
     </incident>
 
     <incident
@@ -1925,12 +1905,12 @@
         message="A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.8.5">
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="141"
+            line="146"
             column="20"
-            startOffset="5039"
-            endLine="141"
+            startOffset="5240"
+            endLine="146"
             endColumn="57"
-            endOffset="5076"/>
+            endOffset="5277"/>
     </incident>
 
     <incident
@@ -1939,12 +1919,12 @@
         message="A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.8.5">
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="142"
+            line="147"
             column="10"
-            startOffset="5087"
-            endLine="142"
+            startOffset="5288"
+            endLine="147"
             endColumn="52"
-            endOffset="5129"/>
+            endOffset="5330"/>
     </incident>
 
     <incident
@@ -1959,12 +1939,12 @@
             priority="0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="146"
+            line="151"
             column="31"
-            startOffset="5265"
-            endLine="146"
+            startOffset="5466"
+            endLine="151"
             endColumn="62"
-            endOffset="5296"/>
+            endOffset="5497"/>
     </incident>
 
     <incident
@@ -1979,32 +1959,12 @@
             priority="0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="147"
+            line="152"
             column="31"
-            startOffset="5328"
-            endLine="147"
+            startOffset="5529"
+            endLine="152"
             endColumn="75"
-            endOffset="5372"/>
-    </incident>
-
-    <incident
-        id="GradleDependency"
-        severity="warning"
-        message="A newer version of androidx.compose:compose-bom than 2024.06.00 is available: 2026.09.00">
-        <fix-replace
-            description="Change to 2026.09.00"
-            family="Update versions"
-            oldString="2024.06.00"
-            replacement="2026.09.00"
-            priority="0"/>
-        <location
-            file="${:app*projectDir}/build.gradle.kts"
-            line="148"
-            column="31"
-            startOffset="5404"
-            endLine="148"
-            endColumn="82"
-            endOffset="5455"/>
+            endOffset="5573"/>
     </incident>
 
 </incidents>

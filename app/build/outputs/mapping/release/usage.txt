@@ -60644,7 +60644,7 @@ com.aifirewall.app.presentation.screens.dashboard.DashboardScreenKt$DashboardScr
 com.aifirewall.app.presentation.screens.dashboard.DashboardScreenKt$DashboardScreen$notificationPermissionLauncher$1:
     public final void invoke(boolean)
 com.aifirewall.app.presentation.screens.dashboard.DashboardScreenKt$DashboardScreen$vpnPermissionLauncher$1:
-    public static void invoke$52()
+    public final void invoke$52()
 com.aifirewall.app.presentation.screens.dashboard.DashboardScreenKt$ProtectionSummarySection$1$1:
     public final void invoke(androidx.compose.runtime.Composer,int)
 com.aifirewall.app.presentation.screens.dashboard.DashboardScreenKt$ProtectionSummarySection$2:
@@ -60772,6 +60772,8 @@ com.aifirewall.app.presentation.screens.diagnostics.DiagnosticsScreenKt$Diagnost
     public final void invoke(androidx.compose.runtime.Composer,int)
 com.aifirewall.app.presentation.screens.diagnostics.DiagnosticsScreenKt$DiagnosticsScreen$2$1$1$1:
     public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
+com.aifirewall.app.presentation.screens.diagnostics.DiagnosticsScreenKt$DiagnosticsScreen$2$1$1$2:
+    public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
 com.aifirewall.app.presentation.screens.diagnostics.DiagnosticsScreenKt$DiagnosticsScreen$2$1$1:
     public final void invoke()
 com.aifirewall.app.presentation.screens.diagnostics.DiagnosticsScreenKt$DiagnosticsScreen$2$1$2:
@@ -60782,11 +60784,14 @@ com.aifirewall.app.presentation.screens.diagnostics.DiagnosticsScreenKt$Diagnost
     public final void invoke$49()
 com.aifirewall.app.presentation.screens.diagnostics.DiagnosticsScreenKt$DiagnosticsScreen$3:
     public final void invoke(androidx.compose.runtime.Composer,int)
+com.aifirewall.app.presentation.screens.diagnostics.DiagnosticsScreenKt$DiagnosticsScreen$vpnPermissionLauncher$1$1:
+    public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
+com.aifirewall.app.presentation.screens.diagnostics.DiagnosticsScreenKt$DiagnosticsScreen$vpnPermissionLauncher$1:
+    public final void invoke$52()
 com.aifirewall.app.presentation.screens.diagnostics.DiagnosticsScreenKt$WhenMappings:
     public static final synthetic int[] $EnumSwitchMapping$1
 com.aifirewall.app.presentation.screens.diagnostics.DiagnosticsScreenKt:
     public static final boolean access$DiagnosticsScreen$lambda$1(androidx.compose.runtime.MutableState)
-    public static final void access$DiagnosticsScreen$lambda$2(androidx.compose.runtime.MutableState,boolean)
 com.aifirewall.app.presentation.screens.profiles.ComposableSingletons$ProfilesScreenKt$lambda-1$1:
     public final void invoke(androidx.compose.runtime.Composer,int)
 com.aifirewall.app.presentation.screens.profiles.ComposableSingletons$ProfilesScreenKt$lambda-10$1:

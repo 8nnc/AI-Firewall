@@ -4,6 +4,8 @@ import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.net.VpnService
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -78,6 +80,19 @@ fun DiagnosticsScreen(
     
     val firewallState by FirewallStateManager.firewallState.collectAsState()
 
+    val vpnPermissionLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.StartActivityForResult()
+    ) { _ ->
+        isRunning = true
+        coroutineScope.launch {
+            try {
+                results = runDiagnostics(context, FirewallStateManager.firewallState.value)
+            } finally {
+                isRunning = false
+            }
+        }
+    }
+
     Scaffold(
         topBar = {
             TopAppBar(
@@ -105,10 +120,35 @@ fun DiagnosticsScreen(
         ) {
             Button(
                 onClick = {
-                    isRunning = true
-                    coroutineScope.launch {
-                        results = runDiagnostics(context, firewallState)
-                        isRunning = false
+                    if (isRunning) return@Button
+                    val vpnIntent = try {
+                        VpnService.prepare(context)
+                    } catch (e: Exception) {
+                        null
+                    }
+
+                    if (vpnIntent != null) {
+                        try {
+                            isRunning = true
+                            vpnPermissionLauncher.launch(vpnIntent)
+                        } catch (e: Exception) {
+                            coroutineScope.launch {
+                                try {
+                                    results = runDiagnostics(context, firewallState)
+                                } finally {
+                                    isRunning = false
+                                }
+                            }
+                        }
+                    } else {
+                        isRunning = true
+                        coroutineScope.launch {
+                            try {
+                                results = runDiagnostics(context, firewallState)
+                            } finally {
+                                isRunning = false
+                            }
+                        }
                     }
                 },
                 modifier = Modifier.fillMaxWidth(),
@@ -147,7 +187,11 @@ suspend fun runDiagnostics(context: Context, firewallState: FirewallState): List
     // Delays removed for immediate accurate results
 
     // 1. VPN Permission
-    val hasVpnPermission = VpnService.prepare(context) == null
+    val hasVpnPermission = try {
+        VpnService.prepare(context) == null
+    } catch (e: Exception) {
+        false
+    }
     results.add(
         DiagnosticResult(
             name = "VPN Permission",

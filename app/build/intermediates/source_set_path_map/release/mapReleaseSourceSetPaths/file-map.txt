@@ -64,10 +64,10 @@ com.aifirewall.app-room-ktx-2.6.1-62 C:\Users\yasser_tech\.gradle\caches\8.11.1\
 com.aifirewall.app-security-crypto-1.1.0-alpha06-63 C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\f7c873c60bf38744706e71c90d23056f\transformed\security-crypto-1.1.0-alpha06\res
 com.aifirewall.app-lifecycle-runtime-release-64 C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\f97ee8404003a64fe6a667591fd758c7\transformed\lifecycle-runtime-release\res
 com.aifirewall.app-activity-compose-1.9.0-65 C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\ff469e9ecd2b233eed4cedc7a19062d7\transformed\activity-compose-1.9.0\res
-com.aifirewall.app-resValues-66 C:\Users\yasser_tech\Desktop\ff\app\build\generated\res\resValues\release
-com.aifirewall.app-packageReleaseResources-67 C:\Users\yasser_tech\Desktop\ff\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
-com.aifirewall.app-packageReleaseResources-68 C:\Users\yasser_tech\Desktop\ff\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
-com.aifirewall.app-merged-not-compiled-resources-69 C:\Users\yasser_tech\Desktop\ff\app\build\intermediates\merged-not-compiled-resources\release
-com.aifirewall.app-release-70 C:\Users\yasser_tech\Desktop\ff\app\build\intermediates\merged_res\release\mergeReleaseResources
-com.aifirewall.app-main-71 C:\Users\yasser_tech\Desktop\ff\app\src\main\res
-com.aifirewall.app-release-72 C:\Users\yasser_tech\Desktop\ff\app\src\release\res
+com.aifirewall.app-resValues-66 C:\Users\yasser_tech\Desktop\AI-Firewall\app\build\generated\res\resValues\release
+com.aifirewall.app-packageReleaseResources-67 C:\Users\yasser_tech\Desktop\AI-Firewall\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.aifirewall.app-packageReleaseResources-68 C:\Users\yasser_tech\Desktop\AI-Firewall\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.aifirewall.app-merged-not-compiled-resources-69 C:\Users\yasser_tech\Desktop\AI-Firewall\app\build\intermediates\merged-not-compiled-resources\release
+com.aifirewall.app-release-70 C:\Users\yasser_tech\Desktop\AI-Firewall\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.aifirewall.app-main-71 C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res
+com.aifirewall.app-release-72 C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\release\res

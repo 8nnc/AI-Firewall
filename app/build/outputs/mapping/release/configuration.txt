@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is C:\Users\yasser_tech\Desktop\ff\app\build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.5.0
+# The proguard configuration file for the following section is C:\Users\yasser_tech\Desktop\AI-Firewall\app\build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.5.0
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -89,8 +89,8 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from C:\Users\yasser_tech\Desktop\ff\app\build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.5.0
-# The proguard configuration file for the following section is C:\Users\yasser_tech\Desktop\ff\app\proguard-rules.pro
+# End of content from C:\Users\yasser_tech\Desktop\AI-Firewall\app\build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.5.0
+# The proguard configuration file for the following section is C:\Users\yasser_tech\Desktop\AI-Firewall\app\proguard-rules.pro
 # Keep Android System components & VpnService
 -keep public class * extends android.app.Service
 -keep public class * extends android.app.Activity
@@ -129,7 +129,7 @@
 -dontwarn org.checkerframework.**
 -keep class com.google.crypto.tink.** { *; }
 
-# End of content from C:\Users\yasser_tech\Desktop\ff\app\proguard-rules.pro
+# End of content from C:\Users\yasser_tech\Desktop\AI-Firewall\app\proguard-rules.pro
 # The proguard configuration file for the following section is C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\776736041f35965effa788b7148e7a05\transformed\material-1.12.0\proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #
@@ -745,7 +745,7 @@
 }
 
 # End of content from C:\Users\yasser_tech\.gradle\caches\8.11.1\transforms\d7e999223016588927aecbbb909940e9\transformed\rules\lib\META-INF\proguard\gson.pro
-# The proguard configuration file for the following section is C:\Users\yasser_tech\Desktop\ff\app\build\intermediates\aapt_proguard_file\release\processReleaseResources\aapt_rules.txt
+# The proguard configuration file for the following section is C:\Users\yasser_tech\Desktop\AI-Firewall\app\build\intermediates\aapt_proguard_file\release\processReleaseResources\aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
@@ -842,7 +842,7 @@
 -keep class com.google.android.material.timepicker.TimePickerView { <init>(android.content.Context, android.util.AttributeSet); }
 
 
-# End of content from C:\Users\yasser_tech\Desktop\ff\app\build\intermediates\aapt_proguard_file\release\processReleaseResources\aapt_rules.txt
+# End of content from C:\Users\yasser_tech\Desktop\AI-Firewall\app\build\intermediates\aapt_proguard_file\release\processReleaseResources\aapt_rules.txt
 # The proguard configuration file for the following section is <unknown>
 
 # End of content from <unknown>

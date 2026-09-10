@@ -1,4 +1,4 @@
-C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\data\repository\DataUsageRepository.kt:22: Error: Call requires API level 29 (current min is 28): android.app.AppOpsManager#unsafeCheckOpNoThrow [NewApi]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\data\repository\DataUsageRepository.kt:22: Error: Call requires API level 29 (current min is 28): android.app.AppOpsManager#unsafeCheckOpNoThrow [NewApi]
         val mode = appOpsManager.unsafeCheckOpNoThrow(
                                  ~~~~~~~~~~~~~~~~~~~~
 
@@ -26,13 +26,13 @@ C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\data\reposi
    Similarly, you can use tools:targetApi="11" in an XML file to indicate that
    the element will only be inflated in an adequate context.
 
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.9.1 is available: 9.4.0. (There is also a newer version of 8.9.𝑥 available, if upgrading to 9.4.0 is difficult: 8.9.3) [AndroidGradlePluginVersion]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.9.1 is available: 9.4.0. (There is also a newer version of 8.9.𝑥 available, if upgrading to 9.4.0 is difficult: 8.9.3) [AndroidGradlePluginVersion]
 agp = "8.9.1"
       ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.9.1 is available: 9.4.0. (There is also a newer version of 8.9.𝑥 available, if upgrading to 9.4.0 is difficult: 8.9.3) [AndroidGradlePluginVersion]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.9.1 is available: 9.4.0. (There is also a newer version of 8.9.𝑥 available, if upgrading to 9.4.0 is difficult: 8.9.3) [AndroidGradlePluginVersion]
 agp = "8.9.1"
       ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.9.1 is available: 9.4.0. (There is also a newer version of 8.9.𝑥 available, if upgrading to 9.4.0 is difficult: 8.9.3) [AndroidGradlePluginVersion]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.9.1 is available: 9.4.0. (There is also a newer version of 8.9.𝑥 available, if upgrading to 9.4.0 is difficult: 8.9.3) [AndroidGradlePluginVersion]
 agp = "8.9.1"
       ~~~~~~~
 
@@ -43,151 +43,145 @@ agp = "8.9.1"
    with an older version. However, you may simply not be aware that a more
    recent version is available, and that is what this lint check helps find.
 
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:107: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:112: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.0 [GradleDependency]
     implementation("androidx.core:core-ktx:1.13.1")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:108: Warning: A newer version of androidx.core:core-splashscreen than 1.0.1 is available: 1.2.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:113: Warning: A newer version of androidx.core:core-splashscreen than 1.0.1 is available: 1.2.0 [GradleDependency]
     implementation("androidx.core:core-splashscreen:1.0.1")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:109: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.2 is available: 2.11.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:114: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.2 is available: 2.11.0 [GradleDependency]
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.2")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:110: Warning: A newer version of androidx.activity:activity-compose than 1.9.0 is available: 1.13.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:115: Warning: A newer version of androidx.activity:activity-compose than 1.9.0 is available: 1.13.0 [GradleDependency]
     implementation("androidx.activity:activity-compose:1.9.0")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:112: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.8.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:117: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.8.0 [GradleDependency]
     implementation("androidx.appcompat:appcompat:1.6.1")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:113: Warning: A newer version of com.google.android.material:material than 1.12.0 is available: 1.14.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:118: Warning: A newer version of com.google.android.material:material than 1.12.0 is available: 1.14.0 [GradleDependency]
     implementation("com.google.android.material:material:1.12.0")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:116: Warning: A newer version of androidx.compose:compose-bom than 2024.06.00 is available: 2026.09.00 [GradleDependency]
-    implementation(platform("androidx.compose:compose-bom:2024.06.00"))
-                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:123: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.10.1 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:128: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.10.1 [GradleDependency]
     implementation("androidx.navigation:navigation-compose:2.7.7")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:126: Warning: A newer version of androidx.datastore:datastore-preferences than 1.1.1 is available: 1.2.1 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:131: Warning: A newer version of androidx.datastore:datastore-preferences than 1.1.1 is available: 1.2.1 [GradleDependency]
     implementation("androidx.datastore:datastore-preferences:1.1.1")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:130: Warning: A newer version of androidx.security:security-crypto than 1.1.0-alpha06 is available: 1.1.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:135: Warning: A newer version of androidx.security:security-crypto than 1.1.0-alpha06 is available: 1.1.0 [GradleDependency]
     implementation("androidx.security:security-crypto:1.1.0-alpha06")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:140: Warning: A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.8.5 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:145: Warning: A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.8.5 [GradleDependency]
     implementation("androidx.room:room-runtime:$roomVersion")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:141: Warning: A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.8.5 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:146: Warning: A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.8.5 [GradleDependency]
     implementation("androidx.room:room-ktx:$roomVersion")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:142: Warning: A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.8.5 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:147: Warning: A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.8.5 [GradleDependency]
     kapt("androidx.room:room-compiler:$roomVersion")
          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:146: Warning: A newer version of androidx.test.ext:junit than 1.2.0 is available: 1.3.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:151: Warning: A newer version of androidx.test.ext:junit than 1.2.0 is available: 1.3.0 [GradleDependency]
     androidTestImplementation("androidx.test.ext:junit:1.2.0")
                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:147: Warning: A newer version of androidx.test.espresso:espresso-core than 3.6.0 is available: 3.7.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:152: Warning: A newer version of androidx.test.espresso:espresso-core than 3.6.0 is available: 3.7.0 [GradleDependency]
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.0")
                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:148: Warning: A newer version of androidx.compose:compose-bom than 2024.06.00 is available: 2026.09.00 [GradleDependency]
-    androidTestImplementation(platform("androidx.compose:compose-bom:2024.06.00"))
-                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.0 [GradleDependency]
 coreKtx = "1.13.1"
           ~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.0 [GradleDependency]
 coreKtx = "1.13.1"
           ~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.0 [GradleDependency]
 coreKtx = "1.13.1"
           ~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
 junitVersion = "1.1.5"
                ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
 junitVersion = "1.1.5"
                ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
 junitVersion = "1.1.5"
                ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
 espressoCore = "3.5.1"
                ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
 espressoCore = "3.5.1"
                ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
 espressoCore = "3.5.1"
                ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.0 is available: 2.11.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.0 is available: 2.11.0 [GradleDependency]
 lifecycleRuntimeKtx = "2.8.0"
                       ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.0 is available: 2.11.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.0 is available: 2.11.0 [GradleDependency]
 lifecycleRuntimeKtx = "2.8.0"
                       ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.0 is available: 2.11.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.0 is available: 2.11.0 [GradleDependency]
 lifecycleRuntimeKtx = "2.8.0"
                       ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.0 is available: 2.11.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.0 is available: 2.11.0 [GradleDependency]
 lifecycleRuntimeKtx = "2.8.0"
                       ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.0 is available: 2.11.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.0 is available: 2.11.0 [GradleDependency]
 lifecycleRuntimeKtx = "2.8.0"
                       ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.0 is available: 2.11.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.0 is available: 2.11.0 [GradleDependency]
 lifecycleRuntimeKtx = "2.8.0"
                       ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.0 is available: 2.11.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.0 is available: 2.11.0 [GradleDependency]
 lifecycleRuntimeKtx = "2.8.0"
                       ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.0 is available: 2.11.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.0 is available: 2.11.0 [GradleDependency]
 lifecycleRuntimeKtx = "2.8.0"
                       ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.0 is available: 2.11.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.0 is available: 2.11.0 [GradleDependency]
 lifecycleRuntimeKtx = "2.8.0"
                       ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.0 is available: 1.13.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.0 is available: 1.13.0 [GradleDependency]
 activityCompose = "1.9.0"
                   ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.0 is available: 1.13.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.0 is available: 1.13.0 [GradleDependency]
 activityCompose = "1.9.0"
                   ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.0 is available: 1.13.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.0 is available: 1.13.0 [GradleDependency]
 activityCompose = "1.9.0"
                   ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.05.00 is available: 2026.09.00 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.05.00 is available: 2024.06.00 [GradleDependency]
 composeBom = "2024.05.00"
              ~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.05.00 is available: 2026.09.00 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.05.00 is available: 2026.09.00 [GradleDependency]
 composeBom = "2024.05.00"
              ~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.05.00 is available: 2026.09.00 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.05.00 is available: 2026.09.00 [GradleDependency]
 composeBom = "2024.05.00"
              ~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:11: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.10.1 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:11: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.10.1 [GradleDependency]
 navigationCompose = "2.7.7"
                     ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:11: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.10.1 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:11: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.10.1 [GradleDependency]
 navigationCompose = "2.7.7"
                     ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:11: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.10.1 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:11: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.10.1 [GradleDependency]
 navigationCompose = "2.7.7"
                     ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:12: Warning: A newer version of org.mockito:mockito-core than 5.11.0 is available: 5.12.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:12: Warning: A newer version of org.mockito:mockito-core than 5.11.0 is available: 5.12.0 [GradleDependency]
 mockito = "5.11.0"
           ~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:12: Warning: A newer version of org.mockito:mockito-core than 5.11.0 is available: 5.12.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:12: Warning: A newer version of org.mockito:mockito-core than 5.11.0 is available: 5.12.0 [GradleDependency]
 mockito = "5.11.0"
           ~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:12: Warning: A newer version of org.mockito:mockito-core than 5.11.0 is available: 5.12.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:12: Warning: A newer version of org.mockito:mockito-core than 5.11.0 is available: 5.12.0 [GradleDependency]
 mockito = "5.11.0"
           ~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:15: Warning: A newer version of androidx.core:core-splashscreen than 1.0.1 is available: 1.2.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:15: Warning: A newer version of androidx.core:core-splashscreen than 1.0.1 is available: 1.2.0 [GradleDependency]
 androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version = "1.0.1" }
                                                                                               ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:15: Warning: A newer version of androidx.core:core-splashscreen than 1.0.1 is available: 1.2.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:15: Warning: A newer version of androidx.core:core-splashscreen than 1.0.1 is available: 1.2.0 [GradleDependency]
 androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version = "1.0.1" }
                                                                                               ~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\gradle\libs.versions.toml:15: Warning: A newer version of androidx.core:core-splashscreen than 1.0.1 is available: 1.2.0 [GradleDependency]
+C:\Users\yasser_tech\Desktop\AI-Firewall\gradle\libs.versions.toml:15: Warning: A newer version of androidx.core:core-splashscreen than 1.0.1 is available: 1.2.0 [GradleDependency]
 androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version = "1.0.1" }
                                                                                               ~~~~~~~
 
@@ -198,7 +192,7 @@ androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscree
    However, you may simply not be aware that a more recent version is
    available, and that is what this lint check helps find.
 
-C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\presentation\screens\security\SecurityLockScreen.kt:67: Error: StateFlow.value should not be called within composition [StateFlowValueCalledInComposition from androidx.compose.runtime]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\presentation\screens\security\SecurityLockScreen.kt:67: Error: StateFlow.value should not be called within composition [StateFlowValueCalledInComposition from androidx.compose.runtime]
     val showBiometric = !isSetupMode && securityManager.isBiometricEnabled.value && canUseBiometric
                                                                            ~~~~~
 
@@ -212,7 +206,7 @@ C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\presentatio
    Identifier: androidx.compose.runtime
    Feedback: https://issuetracker.google.com/issues/new?component=612128
 
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:69: Warning: Formatting %d followed by words ("connections"): This should probably be a plural rather than a string [PluralsCandidate]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:69: Warning: Formatting %d followed by words ("connections"): This should probably be a plural rather than a string [PluralsCandidate]
     <string name="apps_blocked_multiple">%1$d connections blocked</string>
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -237,7 +231,7 @@ C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:69: Warning:
 
    https://developer.android.com/guide/topics/resources/string-resource.html#Plurals
 
-C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:7: Error: A <queries> declaration should generally be used instead of QUERY_ALL_PACKAGES; see https://g.co/dev/packagevisibility for details [QueryAllPackagesPermission]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\AndroidManifest.xml:7: Error: A <queries> declaration should generally be used instead of QUERY_ALL_PACKAGES; see https://g.co/dev/packagevisibility for details [QueryAllPackagesPermission]
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -250,13 +244,13 @@ C:\Users\yasser_tech\Desktop\ff\app\src\main\AndroidManifest.xml:7: Error: A <qu
 
    https://g.co/dev/packagevisibility
 
-C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\engine\service\FirewallNotificationHelper.kt:41: Warning: Unnecessary; SDK_INT is always >= 28 [ObsoleteSdkInt]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\engine\service\FirewallNotificationHelper.kt:41: Warning: Unnecessary; SDK_INT is always >= 28 [ObsoleteSdkInt]
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\engine\service\FirewallVpnService.kt:438: Warning: Unnecessary; SDK_INT is always >= 28 [ObsoleteSdkInt]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\engine\service\FirewallVpnService.kt:438: Warning: Unnecessary; SDK_INT is always >= 28 [ObsoleteSdkInt]
                     if (Build.VERSION.SDK_INT >= 24) {
                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\engine\service\FirewallVpnService.kt:510: Warning: Unnecessary; SDK_INT is always >= 28 [ObsoleteSdkInt]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\engine\service\FirewallVpnService.kt:510: Warning: Unnecessary; SDK_INT is always >= 28 [ObsoleteSdkInt]
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -269,7 +263,7 @@ C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\engine\serv
    where the version qualifier is less than or equal to the minSdkVersion,
    where the contents should be merged into the best folder.
 
-C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\engine\service\FirewallEventManager.kt:26: Warning: Do not place Android context classes in static fields (static reference to FirewallNotificationHelper which has field context pointing to Context); this is a memory leak [StaticFieldLeak]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\engine\service\FirewallEventManager.kt:26: Warning: Do not place Android context classes in static fields (static reference to FirewallNotificationHelper which has field context pointing to Context); this is a memory leak [StaticFieldLeak]
     private var notificationHelper: FirewallNotificationHelper? = null
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -287,7 +281,7 @@ C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\engine\serv
 
    ViewModel classes should never point to Views or non-application Contexts.
 
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:142: Warning: This library supports using KSP instead of kapt, which greatly improves performance. Learn more: https://developer.android.com/studio/build/migrate-to-ksp [KaptUsageInsteadOfKsp]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:147: Warning: This library supports using KSP instead of kapt, which greatly improves performance. Learn more: https://developer.android.com/studio/build/migrate-to-ksp [KaptUsageInsteadOfKsp]
     kapt("androidx.room:room-compiler:$roomVersion")
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -297,7 +291,7 @@ C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:142: Warning: This library 
 
    https://developer.android.com/studio/build/migrate-to-ksp
 
-C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\presentation\screens\splash\AnimatedSplashScreen.kt:53: Information: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\java\com\aifirewall\app\presentation\screens\splash\AnimatedSplashScreen.kt:53: Information: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
     var stage by remember { mutableStateOf(0) }
                             ~~~~~~~~~~~~~~
 
@@ -316,88 +310,88 @@ C:\Users\yasser_tech\Desktop\ff\app\src\main\java\com\aifirewall\app\presentatio
    Identifier: androidx.compose.runtime
    Feedback: https://issuetracker.google.com/issues/new?component=612128
 
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:3: Warning: The resource R.string.welcome_message appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:3: Warning: The resource R.string.welcome_message appears to be unused [UnusedResources]
     <string name="welcome_message">Welcome to AI Firewall</string>
             ~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:4: Warning: The resource R.string.firewall_status_enabled appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:4: Warning: The resource R.string.firewall_status_enabled appears to be unused [UnusedResources]
     <string name="firewall_status_enabled">Firewall Enabled</string>
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:5: Warning: The resource R.string.firewall_status_disabled appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:5: Warning: The resource R.string.firewall_status_disabled appears to be unused [UnusedResources]
     <string name="firewall_status_disabled">Firewall Disabled</string>
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:8: Warning: The resource R.string.status_active appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:8: Warning: The resource R.string.status_active appears to be unused [UnusedResources]
     <string name="status_active">Active</string>
             ~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:9: Warning: The resource R.string.status_inactive appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:9: Warning: The resource R.string.status_inactive appears to be unused [UnusedResources]
     <string name="status_inactive">Inactive</string>
             ~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:10: Warning: The resource R.string.status_starting appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:10: Warning: The resource R.string.status_starting appears to be unused [UnusedResources]
     <string name="status_starting">Starting</string>
             ~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:11: Warning: The resource R.string.status_error appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:11: Warning: The resource R.string.status_error appears to be unused [UnusedResources]
     <string name="status_error">Error</string>
             ~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:13: Warning: The resource R.string.network_traffic appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:13: Warning: The resource R.string.network_traffic appears to be unused [UnusedResources]
     <string name="network_traffic">Network Traffic Inspected</string>
             ~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:20: Warning: The resource R.string.blocked_apps appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:20: Warning: The resource R.string.blocked_apps appears to be unused [UnusedResources]
     <string name="blocked_apps">Blocked Apps</string>
             ~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:21: Warning: The resource R.string.allowed_apps appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:21: Warning: The resource R.string.allowed_apps appears to be unused [UnusedResources]
     <string name="allowed_apps">Allowed Apps</string>
             ~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:22: Warning: The resource R.string.blocked_connections appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:22: Warning: The resource R.string.blocked_connections appears to be unused [UnusedResources]
     <string name="blocked_connections">Blocked Connections</string>
             ~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:26: Warning: The resource R.string.tab_today appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:26: Warning: The resource R.string.tab_today appears to be unused [UnusedResources]
     <string name="tab_today">Today</string>
             ~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:27: Warning: The resource R.string.tab_this_week appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:27: Warning: The resource R.string.tab_this_week appears to be unused [UnusedResources]
     <string name="tab_this_week">This Week</string>
             ~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:28: Warning: The resource R.string.tab_this_month appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:28: Warning: The resource R.string.tab_this_month appears to be unused [UnusedResources]
     <string name="tab_this_month">This Month</string>
             ~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:29: Warning: The resource R.string.top_data_consuming appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:29: Warning: The resource R.string.top_data_consuming appears to be unused [UnusedResources]
     <string name="top_data_consuming">Top Data-Consuming Applications</string>
             ~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:37: Warning: The resource R.string.settings_app_lock appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:37: Warning: The resource R.string.settings_app_lock appears to be unused [UnusedResources]
     <string name="settings_app_lock">App Lock</string>
             ~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:38: Warning: The resource R.string.settings_biometric appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:38: Warning: The resource R.string.settings_biometric appears to be unused [UnusedResources]
     <string name="settings_biometric">Biometric Authentication</string>
             ~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:43: Warning: The resource R.string.settings_privacy appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:43: Warning: The resource R.string.settings_privacy appears to be unused [UnusedResources]
     <string name="settings_privacy">Privacy Policy</string>
             ~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:52: Warning: The resource R.string.blocked appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:52: Warning: The resource R.string.blocked appears to be unused [UnusedResources]
     <string name="blocked">Blocked</string>
             ~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:53: Warning: The resource R.string.not_configured appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:53: Warning: The resource R.string.not_configured appears to be unused [UnusedResources]
     <string name="not_configured">Not Configured</string>
             ~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:55: Warning: The resource R.string.rule_saved appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:55: Warning: The resource R.string.rule_saved appears to be unused [UnusedResources]
     <string name="rule_saved">Network rule saved</string>
             ~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:56: Warning: The resource R.string.title_themes appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:56: Warning: The resource R.string.title_themes appears to be unused [UnusedResources]
     <string name="title_themes">Themes</string>
             ~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:57: Warning: The resource R.string.theme_cyber_blue appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:57: Warning: The resource R.string.theme_cyber_blue appears to be unused [UnusedResources]
     <string name="theme_cyber_blue">Cyber Blue</string>
             ~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:58: Warning: The resource R.string.theme_neon_green appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:58: Warning: The resource R.string.theme_neon_green appears to be unused [UnusedResources]
     <string name="theme_neon_green">Neon Green</string>
             ~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:59: Warning: The resource R.string.theme_crimson_red appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:59: Warning: The resource R.string.theme_crimson_red appears to be unused [UnusedResources]
     <string name="theme_crimson_red">Crimson Red</string>
             ~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:72: Warning: The resource R.string.save appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:72: Warning: The resource R.string.save appears to be unused [UnusedResources]
     <string name="save">Save</string>
             ~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:79: Warning: The resource R.string.download appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:79: Warning: The resource R.string.download appears to be unused [UnusedResources]
     <string name="download">Download</string>
             ~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:80: Warning: The resource R.string.upload appears to be unused [UnusedResources]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:80: Warning: The resource R.string.upload appears to be unused [UnusedResources]
     <string name="upload">Upload</string>
             ~~~~~~~~~~~~~
 
@@ -415,10 +409,10 @@ C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:80: Warning:
    lint.unused-resources.exclude-tests =true.
    ,
 
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values-ar\strings.xml:83: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values-ar\strings.xml:83: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
     <string name="firewall_starting">جارٍ التشغيل...</string>
                                      ~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:84: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\src\main\res\values\strings.xml:84: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
     <string name="firewall_starting">Firewall starting...</string>
                                      ~~~~~~~~~~~~~~~~~~~~
 
@@ -429,88 +423,88 @@ C:\Users\yasser_tech\Desktop\ff\app\src\main\res\values\strings.xml:84: Warning:
 
    https://en.wikipedia.org/wiki/Ellipsis
 
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:107: Warning: Use the existing version catalog reference (libs.androidx.core.ktx) instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:112: Warning: Use the existing version catalog reference (libs.androidx.core.ktx) instead [UseTomlInstead]
     implementation("androidx.core:core-ktx:1.13.1")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:108: Warning: Use the existing version catalog reference (libs.androidx.core.splashscreen) instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:113: Warning: Use the existing version catalog reference (libs.androidx.core.splashscreen) instead [UseTomlInstead]
     implementation("androidx.core:core-splashscreen:1.0.1")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:109: Warning: Use version catalog instead (androidx.lifecycle:lifecycle-runtime-ktx is already available as androidx-lifecycle-runtime-ktx, but using version 2.8.0 instead) [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:114: Warning: Use version catalog instead (androidx.lifecycle:lifecycle-runtime-ktx is already available as androidx-lifecycle-runtime-ktx, but using version 2.8.0 instead) [UseTomlInstead]
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.2")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:110: Warning: Use the existing version catalog reference (libs.androidx.activity.compose) instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:115: Warning: Use the existing version catalog reference (libs.androidx.activity.compose) instead [UseTomlInstead]
     implementation("androidx.activity:activity-compose:1.9.0")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:112: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:117: Warning: Use version catalog instead [UseTomlInstead]
     implementation("androidx.appcompat:appcompat:1.6.1")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:113: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:118: Warning: Use version catalog instead [UseTomlInstead]
     implementation("com.google.android.material:material:1.12.0")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:116: Warning: Use version catalog instead (androidx.compose:compose-bom is already available as androidx-compose-bom, but using version 2024.05.00 instead) [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:121: Warning: Use version catalog instead (androidx.compose:compose-bom is already available as androidx-compose-bom, but using version 2024.05.00 instead) [UseTomlInstead]
     implementation(platform("androidx.compose:compose-bom:2024.06.00"))
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:117: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:122: Warning: Use version catalog instead [UseTomlInstead]
     implementation("androidx.compose.ui:ui")
                    ~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:118: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:123: Warning: Use version catalog instead [UseTomlInstead]
     implementation("androidx.compose.ui:ui-graphics")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:119: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:124: Warning: Use version catalog instead [UseTomlInstead]
     implementation("androidx.compose.ui:ui-tooling-preview")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:120: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:125: Warning: Use version catalog instead [UseTomlInstead]
     implementation("androidx.compose.material3:material3")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:123: Warning: Use the existing version catalog reference (libs.androidx.navigation.compose) instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:128: Warning: Use the existing version catalog reference (libs.androidx.navigation.compose) instead [UseTomlInstead]
     implementation("androidx.navigation:navigation-compose:2.7.7")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:126: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:131: Warning: Use version catalog instead [UseTomlInstead]
     implementation("androidx.datastore:datastore-preferences:1.1.1")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:129: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:134: Warning: Use version catalog instead [UseTomlInstead]
     implementation("androidx.biometric:biometric:1.2.0-alpha05")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:130: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:135: Warning: Use version catalog instead [UseTomlInstead]
     implementation("androidx.security:security-crypto:1.1.0-alpha06")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:133: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:138: Warning: Use version catalog instead [UseTomlInstead]
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:136: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:141: Warning: Use version catalog instead [UseTomlInstead]
     implementation("com.google.code.gson:gson:2.11.0")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:140: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:145: Warning: Use version catalog instead [UseTomlInstead]
     implementation("androidx.room:room-runtime:$roomVersion")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:141: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:146: Warning: Use version catalog instead [UseTomlInstead]
     implementation("androidx.room:room-ktx:$roomVersion")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:142: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:147: Warning: Use version catalog instead [UseTomlInstead]
     kapt("androidx.room:room-compiler:$roomVersion")
          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:144: Warning: Use the existing version catalog reference (libs.junit) instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:149: Warning: Use the existing version catalog reference (libs.junit) instead [UseTomlInstead]
     testImplementation("junit:junit:4.13.2")
                        ~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:145: Warning: Use version catalog instead (org.mockito:mockito-core is already available as mockito-core, but using version 5.11.0 instead) [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:150: Warning: Use version catalog instead (org.mockito:mockito-core is already available as mockito-core, but using version 5.11.0 instead) [UseTomlInstead]
     testImplementation("org.mockito:mockito-core:5.12.0")
                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:146: Warning: Use version catalog instead (androidx.test.ext:junit is already available as androidx-junit, but using version 1.1.5 instead) [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:151: Warning: Use version catalog instead (androidx.test.ext:junit is already available as androidx-junit, but using version 1.1.5 instead) [UseTomlInstead]
     androidTestImplementation("androidx.test.ext:junit:1.2.0")
                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:147: Warning: Use version catalog instead (androidx.test.espresso:espresso-core is already available as androidx-espresso-core, but using version 3.5.1 instead) [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:152: Warning: Use version catalog instead (androidx.test.espresso:espresso-core is already available as androidx-espresso-core, but using version 3.5.1 instead) [UseTomlInstead]
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.0")
                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:148: Warning: Use version catalog instead (androidx.compose:compose-bom is already available as androidx-compose-bom, but using version 2024.05.00 instead) [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:153: Warning: Use version catalog instead (androidx.compose:compose-bom is already available as androidx-compose-bom, but using version 2024.05.00 instead) [UseTomlInstead]
     androidTestImplementation(platform("androidx.compose:compose-bom:2024.06.00"))
                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:149: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:154: Warning: Use version catalog instead [UseTomlInstead]
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:150: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:155: Warning: Use version catalog instead [UseTomlInstead]
     debugImplementation("androidx.compose.ui:ui-tooling")
                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:151: Warning: Use version catalog instead [UseTomlInstead]
+C:\Users\yasser_tech\Desktop\AI-Firewall\app\build.gradle.kts:156: Warning: Use version catalog instead [UseTomlInstead]
     debugImplementation("androidx.compose.ui:ui-test-manifest")
                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -520,4 +514,4 @@ C:\Users\yasser_tech\Desktop\ff\app\build.gradle.kts:151: Warning: Use version c
    declarations outside of the TOML file and suggests moving them (and in the
    IDE, provides a quickfix to performing the operation automatically).
 
-3 errors, 116 warnings
+3 errors, 114 warnings

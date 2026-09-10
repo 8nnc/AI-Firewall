@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="C:\Users\yasser_tech\Desktop\ff\app"
+    dir="C:\Users\yasser_tech\Desktop\AI-Firewall\app"
     name=":app"
     type="APP"
     maven="AI Firewall:app:unspecified"
